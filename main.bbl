@@ -1,0 +1,58 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
+  \urlstyle{same}\fi
+\providecommand{\href}[2]{\url{#2}}
+\providecommand{\doi}[1]{\href{https://doi.org/#1}{#1}}
+
+\bibitem[Awasthi et~al.(2023)Awasthi, Fernandez-Cortizas, Reining, Arias-Perez,
+  Luna, Perez-Saura, Roidl, Gramse, Klokowski, and Campoy]{awasthi2023micro}
+AWASTHI~S, FERNANDEZ-CORTIZAS~M, REINING~C, et~al.
+\newblock Micro uav swarm for industrial applications in indoor environment: a
+  systematic literature review\allowbreak[J].
+\newblock Logistics Research, 2023, 16\penalty0 (1):\penalty0 1-43.
+
+\bibitem[Sakya et~al.(2023)Sakya, Shivam, Rani, Tripathi, and
+  Vats]{sakya2023cloud}
+SAKYA~G, SHIVAM, RANI~N, et~al.
+\newblock Cloud-based swarm robotics for modern agriculture\allowbreak[C].
+\newblock International Conference on Data Analytics \& Management.
+\newblock Springer, 2023. 159-172.
+
+\bibitem[King(2024)]{king2024robot}
+KING~A.
+\newblock Robot wars: Autonomous drone swarms and the battlefield of the
+  future\allowbreak[J].
+\newblock Journal of Strategic Studies, 2024, 47\penalty0 (2):\penalty0
+  185-213.
+
+\bibitem[Ingale et~al.(2023)Ingale, Deshmukh, Deshpande, Deshmukh, Deshmukh,
+  and Bhise]{ingale2023multi}
+INGALE~K, DESHMUKH~A, DESHPANDE~A, et~al.
+\newblock Multi-agent swarm robotics for accurate position detection in
+  disaster scenarios\allowbreak[C].
+\newblock 2023 International Conference on Inventive Computation Technologies
+  (ICICT).
+\newblock IEEE, 2023. 1454-1460.
+
+\bibitem[东南大学研究生院(2015)]{seugs2015rule}
+东南大学研究生院.
+\newblock 东南大学研究生学位论文格式规定\allowbreak[EB/OL].
+\newblock \url{http://seugs.seu.edu.cn/2013/1126/c3686a36680/page.htm}, 2015.
+
+\bibitem[东南大学研究生院(2018)]{seugs2018license}
+东南大学研究生院.
+\newblock
+  学位论文独创性和使用授权声明（20180321新版）\allowbreak[EB/OL].
+\newblock
+  \url{https://seugs.seu.edu.cn/_upload/article/files/97/30/4568eaee4d40bee1ad81197ad8d9/4689f0f7-8a7a-480e-a238-02c9c475f9c1.doc},
+  2018.
+
+\bibitem[Blum et~al.(2013)Blum, Ligett, and Roth]{blum2013learning}
+BLUM~A, LIGETT~K, ROTH~A.
+\newblock A learning theory approach to noninteractive database
+  privacy\allowbreak[J].
+\newblock Journal of the ACM (JACM), 2013, 60\penalty0 (2):\penalty0 1-25.
+
+\end{thebibliography}
