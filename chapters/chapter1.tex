@@ -1,21 +1,46 @@
-\chapter{模板的安装与使用}
-\label{chp:installation}
+\chapter{绪论}
+%\label{chp:installation}
 
-本章将介绍如何配置 \LaTeX 开发环境并使用本模板编译PDF格式的论文。
-\nomenclature{PDF}{Portable Document Format}
+\section{研究背景及意义}
+%\label{sec:tex_environment}
+\subsection{微型无人机}
 
-\section{环境准备}
-\label{sec:tex_environment}
+近些年来，无人机技术发展迅速，其应用场景不断拓展，逐渐在社会生产与公共管理等领域中发挥重要作用。
+相比传统有人作业方式，无人机具备部署迅速、机动性强、任务适应能力高等特点，尤其适合在复杂、危险或人员难以进入的环境中开展作业。
+在自然资源调查领域，无人机搭载激光雷达、航测相机等设备，可完成高精度三维建模。
+如 2025 年，生态环境部相关团队在锡林郭勒草原保护区，通过无人机多光谱、可见光技术结合地面监测，实现了草原植物多样性的高效监测。
+在公共安全与基础设施运维领域，无人机凭借智能感知与识别技术，实现输电线路等设施常态化巡查。
+2025 年湖北大冶电网巡检中，无人机大幅提升巡检效率，缩短故障响应时间，实现多个重点台区 “零停电消缺”。
+此外，在应急与灾害响应场景中，无人机搭载红外探测、实时通信模块，能快速获取现场信息。
+2025 年湖南祁东县山林火情处置中，无人机快速定位火情、传输影像，仅用 18 分钟完成信息报送，为快速扑灭火情提供关键支撑。
 
-使用本模板之前首先需要在你的设备上配置好 \LaTeX 开发环境。目前主流的计算机操作系统都对 \LaTeX 有较好的支持，接下来我们将以几个常见操作系统为例介绍环境的配置方法。
+\begin{figure}[htbp]
+    \centering
+    \subfloat[地质勘测]{\includegraphics[width=.3\textwidth]{figures/content/chapter1/地质勘测.png}}
+    \quad
+    \subfloat[电力巡检]{\includegraphics[width=.26\textwidth]{figures/content/chapter1/电力巡检.png}}
+    \quad
+    \subfloat[电力巡检]{\includegraphics[width=.27\textwidth]{figures/content/chapter1/火灾救援.jpeg}}
+    \caption{无人机应用场景}
+    %\label{fig:4_4}
+    \end{figure}
 
-\subsection{Microsoft Windows\texttrademark}
+随着电子制造技术、嵌入式系统以及微机电系统的飞速发展，无人机系统在感知、计算和控制能力不断提升的同时，正朝着小型化、轻量化和智能化方向不断演进。
+在此背景下，微型无人机（Micro Unmanned Aerial Vehicles, MUAVs）凭借体积小、重量轻、机动性强等特点，逐渐从科研实验室走向工业应用与日常生活，在工业自动化\cite{awasthi2023micro}、农业\cite{sakya2023cloud}、军事行动\cite{king2024robot}以及灾害响应\cite{ingale2023multi}等领域展现出广阔的应用前景。
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=.5\linewidth]{figures/content/chapter1/微型无人机.jpg}
+    \caption{微型无人机}
+\end{figure}
 
-\LaTeX 在Microsoft Windows操作系统上的发行版称为 Tex Live，该发行版提供了较为全面的现代 \LaTeX 编译引擎支持，包括了对 XeLaTeX 和 LuaTeX 的良好支持。需要强调的是，一些网络上的教程可能会指导初学者下载 CTeX 安装套件，请不要这样做。CTeX 是刀耕火种时代 \LaTeX 社群针对中文使用者发明的妥协产物，在早期有其使用价值，但现如今在使用时往往会面临宏包缺失和兼容性问题\cite{muzi2020ctex}。为了避免你在issue中反复抱怨编译错误，或者发邮件询问一个本不该出现的问题，请珍爱生命，使用 Tex Live。
-
-截止到本文撰写的时间点，Tex Live的最新版本为Tex Live 2019，你可以在\href{http://tug.org/texlive/}{这个网站}找到下载链接。请尽量选择完全下载并本地安装而非使用下载器在线安装，因为大部分中国IP的连接速度让人绝望。下载时你可以就近选择节点，如果你使用的是校园网的话可以达到一个相当可观的下载速度。
-
-安装过程较为简单，按照步骤设定安装位置即可。需要注意的是，请你在安装完成后设定好环境变量。尽管不设定环境变量在多数情况下也可以工作，但是你将无法使用我们提供的编译脚本。设定环境变量的方法与步骤不在本文的教程范围之内，请自行百度。
+Bitcraze 公司于 2019 年 2 月发布的 Crazyflie 2.1 是当前微型无人机领域中具有代表性的开源平台之一。
+该无人机尺寸仅为 65 mm × 65 mm，重量约 27 g，集成了多种传感器模块，并支持多种无线通信方式，广泛应用于无人机控制算法验证、编队飞行研究以及教育科研实验。
+以 Crazyflie 2.1 为代表的微型无人机在实际应用中展现出诸多优势：
+首先，其体积小、质量轻，在室内环境中飞行安全性高，对人员和设备的潜在威胁较小；
+其次，系统成本低、维护简单，便于实现多机协同与大规模部署；
+此外，其开源特性和模块化设计为算法开发、系统扩展和功能定制提供了良好的实验基础。
+然而，微型无人机同样存在一定的局限性，例如受限于机载硬件规模，微型无人机的计算与存储资源相对有限，单机可执行任务的复杂度较低；
+此外，其电池容量较小，飞行续航时间较短，从而限制了单次任务的执行时间和活动范围，这些不足对系统的稳定性与任务复杂度提出了更高要求。
 
 \subsection{Apple MacOS\texttrademark}
 
