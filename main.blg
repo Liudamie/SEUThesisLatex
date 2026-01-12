@@ -5,44 +5,44 @@ The style file: template/seumasterthesis.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: reference.bib
-You've used 7 entries,
+You've used 9 entries,
             4073 wiz_defined-function locations,
-            902 strings with 7773 characters,
-and the built_in function-call counts, 44189 in all, are:
-= -- 829
-> -- 5124
-< -- 6444
-+ -- 1818
-- -- 423
-* -- 254
-:= -- 6169
-add.period$ -- 23
-call.type$ -- 7
-change.case$ -- 25
-chr.to.int$ -- 1665
-cite$ -- 7
-duplicate$ -- 144
-empty$ -- 400
-format.name$ -- 114
-if$ -- 11391
+            916 strings with 8216 characters,
+and the built_in function-call counts, 57529 in all, are:
+= -- 1086
+> -- 6703
+< -- 8351
++ -- 2337
+- -- 555
+* -- 347
+:= -- 7996
+add.period$ -- 30
+call.type$ -- 9
+change.case$ -- 35
+chr.to.int$ -- 2157
+cite$ -- 9
+duplicate$ -- 207
+empty$ -- 527
+format.name$ -- 154
+if$ -- 14834
 int.to.chr$ -- 1
-int.to.str$ -- 8
+int.to.str$ -- 10
 missing$ -- 0
-newline$ -- 46
-num.names$ -- 21
-pop$ -- 2238
+newline$ -- 57
+num.names$ -- 27
+pop$ -- 2869
 preamble$ -- 1
-purify$ -- 7
+purify$ -- 9
 quote$ -- 0
-skip$ -- 4440
+skip$ -- 5858
 stack$ -- 0
-substring$ -- 2210
-swap$ -- 18
-text.length$ -- 72
+substring$ -- 2857
+swap$ -- 28
+text.length$ -- 99
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 87
+type$ -- 111
 warning$ -- 0
-while$ -- 96
+while$ -- 128
 width$ -- 0
-write$ -- 107
+write$ -- 137
