@@ -1,8 +1,8 @@
 \contentsline {chapter}{摘 ~~~\hskip 1em\relax 要}{I}{section*.1}%
 \contentsline {chapter}{Abstract~}{III}{section*.3}%
-\contentsline {chapter}{插图目录}{IX}{section*.6}%
-\contentsline {chapter}{表格目录}{XI}{section*.8}%
-\contentsline {chapter}{算法目录}{XIII}{section*.10}%
+\contentsline {chapter}{插图目录}{VII}{section*.6}%
+\contentsline {chapter}{表格目录}{IX}{section*.8}%
+\contentsline {chapter}{算法目录}{XI}{section*.10}%
 \contentsline {chapter}{术语与符号列表}{1}{section*.12}%
 \contentsline {chapter}{\numberline {第一章\hspace {.3em}}绪论}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}研究背景及意义}{1}{section.1.1}%
@@ -11,54 +11,47 @@
 \contentsline {section}{\numberline {1.2}研究思路与挑战}{4}{section.1.2}%
 \contentsline {section}{\numberline {1.3}研究目标与内容}{5}{section.1.3}%
 \contentsline {section}{\numberline {1.4}论文组织结构}{6}{section.1.4}%
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}论文的初始化}{9}{chapter.2}%
-\contentsline {section}{\numberline {2.1}元数据}{9}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}分类号}{9}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}UDC}{9}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}保密级别}{9}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}学号}{10}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}论文标题与书脊}{10}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}中英文标题}{10}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}论文书脊}{11}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}作者与导师}{12}{section.2.3}%
-\contentsline {section}{\numberline {2.4}答辩信息}{13}{section.2.4}%
-\contentsline {section}{\numberline {2.5}模板参数}{14}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}链接着色}{14}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}图表、算法及术语目录}{14}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}硕士类型}{15}{subsection.2.5.3}%
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}撰写正文}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}研究生学位论文的一般格式与顺序}{17}{section.3.1}%
-\contentsline {section}{\numberline {3.2}独创性与授权声明}{18}{section.3.2}%
-\contentsline {section}{\numberline {3.3}中英文摘要}{18}{section.3.3}%
-\contentsline {section}{\numberline {3.4}论文章节及图表目录}{19}{section.3.4}%
-\contentsline {section}{\numberline {3.5}正文}{19}{section.3.5}%
-\contentsline {section}{\numberline {3.6}致谢}{20}{section.3.6}%
-\contentsline {section}{\numberline {3.7}参考文献}{20}{section.3.7}%
-\contentsline {section}{\numberline {3.8}附录}{21}{section.3.8}%
-\contentsline {section}{\numberline {3.9}作者简介}{21}{section.3.9}%
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}特殊环境与浮动体}{23}{chapter.4}%
-\contentsline {section}{\numberline {4.1}图片}{23}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}插入图片}{23}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}浮动体环境与位置标识符}{24}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}图片的大小与路径}{24}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}图片的标题与标签}{25}{subsection.4.1.4}%
-\contentsline {subsection}{\numberline {4.1.5}图片的并排}{25}{subsection.4.1.5}%
-\contentsline {subsection}{\numberline {4.1.6}子图}{26}{subsection.4.1.6}%
-\contentsline {section}{\numberline {4.2}表格}{26}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}插入表格}{26}{subsection.4.2.1}%
-\contentsline {section}{\numberline {4.3}算法}{29}{section.4.3}%
-\contentsline {section}{\numberline {4.4}公式环境}{30}{section.4.4}%
-\contentsline {section}{\numberline {4.5}引用浮动体}{32}{section.4.5}%
-\contentsline {section}{\numberline {4.6}代码环境}{32}{section.4.6}%
-\contentsline {section}{\numberline {4.7}术语与符号}{33}{section.4.7}%
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}参考文献}{35}{chapter.5}%
-\contentsline {section}{\numberline {5.1}导入参考文献}{35}{section.5.1}%
-\contentsline {section}{\numberline {5.2}引用参考文献}{35}{section.5.2}%
-\contentsline {section}{\numberline {5.3}参考文献样式}{36}{section.5.3}%
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}版权信息与更新记录}{37}{chapter.6}%
-\contentsline {section}{\numberline {6.1}版权信息}{37}{section.6.1}%
-\contentsline {chapter}{致 ~~~\hskip 1em\relax 谢}{39}{section*.23}%
-\contentsline {chapter}{参考文献}{41}{section*.25}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}研究现状}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}无人机集群协同定位}{9}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}基于超宽带的测距技术}{9}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}基于距离的相对定位算法}{11}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}无人机自主导航}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}依赖地图的自主导航}{12}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}不依赖地图的自主导航}{12}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}研究现状小结}{12}{section.2.3}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}撰写正文}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}研究生学位论文的一般格式与顺序}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}独创性与授权声明}{16}{section.3.2}%
+\contentsline {section}{\numberline {3.3}中英文摘要}{16}{section.3.3}%
+\contentsline {section}{\numberline {3.4}论文章节及图表目录}{17}{section.3.4}%
+\contentsline {section}{\numberline {3.5}正文}{17}{section.3.5}%
+\contentsline {section}{\numberline {3.6}致谢}{18}{section.3.6}%
+\contentsline {section}{\numberline {3.7}参考文献}{18}{section.3.7}%
+\contentsline {section}{\numberline {3.8}附录}{19}{section.3.8}%
+\contentsline {section}{\numberline {3.9}作者简介}{19}{section.3.9}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}特殊环境与浮动体}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}图片}{21}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}插入图片}{21}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}浮动体环境与位置标识符}{22}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}图片的大小与路径}{22}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}图片的标题与标签}{23}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}图片的并排}{23}{subsection.4.1.5}%
+\contentsline {subsection}{\numberline {4.1.6}子图}{24}{subsection.4.1.6}%
+\contentsline {section}{\numberline {4.2}表格}{24}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}插入表格}{24}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}算法}{27}{section.4.3}%
+\contentsline {section}{\numberline {4.4}公式环境}{28}{section.4.4}%
+\contentsline {section}{\numberline {4.5}引用浮动体}{30}{section.4.5}%
+\contentsline {section}{\numberline {4.6}代码环境}{30}{section.4.6}%
+\contentsline {section}{\numberline {4.7}术语与符号}{31}{section.4.7}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}参考文献}{33}{chapter.5}%
+\contentsline {section}{\numberline {5.1}导入参考文献}{33}{section.5.1}%
+\contentsline {section}{\numberline {5.2}引用参考文献}{33}{section.5.2}%
+\contentsline {section}{\numberline {5.3}参考文献样式}{34}{section.5.3}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}版权信息与更新记录}{35}{chapter.6}%
+\contentsline {section}{\numberline {6.1}版权信息}{35}{section.6.1}%
+\contentsline {chapter}{致 ~~~\hskip 1em\relax 谢}{37}{section*.22}%
+\contentsline {chapter}{参考文献}{39}{section*.24}%
 \contentsline {chapter}{\numberline {附录 A\hspace {.3em}}欧几里得第二定理的证明}{43}{appendix.A}%
 \contentsline {chapter}{\numberline {附录 B\hspace {.3em}}$\sqrt {2}$是无理数的证明}{45}{appendix.B}%
-\contentsline {chapter}{作者简介}{47}{section*.27}%
+\contentsline {chapter}{作者简介}{47}{section*.26}%

@@ -5,44 +5,56 @@ The style file: template/seumasterthesis.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: reference.bib
-You've used 9 entries,
+Repeated entry---line 280 of file reference.bib
+ : @article{nguyen2023relative
+ :                            ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "seugs2015rule"
+Warning--I didn't find a database entry for "seugs2018license"
+Warning--I didn't find a database entry for "blum2013learning"
+Warning--empty year in lucahigh
+Warning--empty year in lucahigh
+Warning--empty year in lucahigh
+Warning--empty author in 9179124
+You've used 40 entries,
             4073 wiz_defined-function locations,
-            916 strings with 8216 characters,
-and the built_in function-call counts, 57529 in all, are:
-= -- 1086
-> -- 6703
-< -- 8351
-+ -- 2337
-- -- 555
-* -- 347
-:= -- 7996
-add.period$ -- 30
-call.type$ -- 9
-change.case$ -- 35
-chr.to.int$ -- 2157
-cite$ -- 9
-duplicate$ -- 207
-empty$ -- 527
-format.name$ -- 154
-if$ -- 14834
+            1090 strings with 14983 characters,
+and the built_in function-call counts, 282999 in all, are:
+= -- 4766
+> -- 33935
+< -- 41819
++ -- 11266
+- -- 2278
+* -- 1677
+:= -- 38848
+add.period$ -- 127
+call.type$ -- 40
+change.case$ -- 187
+chr.to.int$ -- 10370
+cite$ -- 45
+duplicate$ -- 843
+empty$ -- 2217
+format.name$ -- 745
+if$ -- 73060
 int.to.chr$ -- 1
-int.to.str$ -- 10
+int.to.str$ -- 41
 missing$ -- 0
-newline$ -- 57
-num.names$ -- 27
-pop$ -- 2869
+newline$ -- 216
+num.names$ -- 117
+pop$ -- 15062
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 40
 quote$ -- 0
-skip$ -- 5858
+skip$ -- 29503
 stack$ -- 0
-substring$ -- 2857
-swap$ -- 28
-text.length$ -- 99
+substring$ -- 13560
+swap$ -- 134
+text.length$ -- 439
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 111
-warning$ -- 0
-while$ -- 128
+type$ -- 500
+warning$ -- 4
+while$ -- 581
 width$ -- 0
-write$ -- 137
+write$ -- 577
+(There was 1 error message)
