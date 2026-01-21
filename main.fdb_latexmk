@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1768210984.59 "/Users/liu/client/SEUThesisLatex/main.tex" "main.pdf" "main" 1768210984.92177 2
+["pdflatex"] 1768371098.95177 "/Users/liu/client/SEUThesisLatex/main.tex" "main.pdf" "main" 1768371099.28579 2
   "/System/Library/Fonts/Menlo.ttc" 1731646787 2156036 ec05dfca6821d85440da0899493002c3 ""
   "/Users/liu/client/SEUThesisLatex/main.tex" 1768210983.94289 5199 62715ccea409480b76c95094605049a0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -49,7 +49,7 @@
   "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1722243565 8221428 e6ddd90212dd788427efe7f7234b4462 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 0 -1 0 "pdflatex"
+  "main.aux" 1768371098.95104 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "main.tex" 1768210983.94289 5199 62715ccea409480b76c95094605049a0 ""
   "template/seumasterthesis.cfg" 1767679772.09237 4505 f33c8dfddacbcbeee42671f6d8739e2d ""
   "template/seumasterthesis.cls" 1767679772.09246 30826 e2d1d6477d2313cc6be69184eba8a9ab ""

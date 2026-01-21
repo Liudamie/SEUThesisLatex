@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{40}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -51,23 +51,237 @@ FEI~W, XIAOPING~Z, ZHOU~Z, et~al.
 \newblock Chinese Journal of Aeronautics, 2024, 37\penalty0 (3):\penalty0
   237-257.
 
-\bibitem[东南大学研究生院(2015)]{seugs2015rule}
-东南大学研究生院.
-\newblock 东南大学研究生学位论文格式规定\allowbreak[EB/OL].
-\newblock \url{http://seugs.seu.edu.cn/2013/1126/c3686a36680/page.htm}, 2015.
+\bibitem[Luca et~al.()Luca, Giusti, and Palossi]{lucahigh}
+LUCA~C, GIUSTI~A, PALOSSI~D.
+\newblock High-throughput visual nano-drone to nano-drone relative localization
+  using onboard fully convolutional networks. 2024\allowbreak[Z].
 
-\bibitem[东南大学研究生院(2018)]{seugs2018license}
-东南大学研究生院.
-\newblock
-  学位论文独创性和使用授权声明（20180321新版）\allowbreak[EB/OL].
-\newblock
-  \url{https://seugs.seu.edu.cn/_upload/article/files/97/30/4568eaee4d40bee1ad81197ad8d9/4689f0f7-8a7a-480e-a238-02c9c475f9c1.doc},
-  2018.
+\bibitem[Yin et~al.(2025)Yin, Zhao, Wang, Ge, Ji, Hu, Liu, and
+  Han]{yin2025iloc}
+YIN~P, ZHAO~S, WANG~J, et~al.
+\newblock iloc: An adaptive, efficient, and robust visual localization
+  system\allowbreak[J].
+\newblock IEEE Transactions on Robotics, 2025.
 
-\bibitem[Blum et~al.(2013)Blum, Ligett, and Roth]{blum2013learning}
-BLUM~A, LIGETT~K, ROTH~A.
-\newblock A learning theory approach to noninteractive database
-  privacy\allowbreak[J].
-\newblock Journal of the ACM (JACM), 2013, 60\penalty0 (2):\penalty0 1-25.
+\bibitem[Chiasson et~al.(2023)Chiasson, Lin, Kok, and
+  Shull]{chiasson2023asynchronous}
+CHIASSON~D, LIN~Y, KOK~M, et~al.
+\newblock Asynchronous hyperbolic uwb source-localization and self-localization
+  for indoor tracking and navigation\allowbreak[J].
+\newblock IEEE Internet of Things Journal, 2023, 10\penalty0 (13):\penalty0
+  11655-11668.
+
+\bibitem[Yang et~al.(2022)Yang, Dong, and Wang]{yang2022vuloc}
+YANG~J, DONG~B, WANG~J.
+\newblock Vuloc: Accurate uwb localization for countless targets without
+  synchronization\allowbreak[J].
+\newblock Proceedings of the ACM on Interactive, Mobile, Wearable and
+  Ubiquitous Technologies, 2022, 6\penalty0 (3):\penalty0 1-25.
+
+\bibitem[Kim et~al.(2022)Kim, Farhad, and Pyun]{kim2022uwb}
+KIM~D~H, FARHAD~A, PYUN~J~Y.
+\newblock Uwb positioning system based on lstm classification with mitigated
+  nlos effects\allowbreak[J].
+\newblock IEEE Internet of Things Journal, 2022, 10\penalty0 (2):\penalty0
+  1822-1835.
+
+\bibitem[Zhao et~al.(2022)Zhao, Goudar, and Schoellig]{zhao2022finding}
+ZHAO~W, GOUDAR~A, SCHOELLIG~A~P.
+\newblock Finding the right place: Sensor placement for uwb time difference of
+  arrival localization in cluttered indoor environments\allowbreak[J].
+\newblock IEEE Robotics and Automation Letters, 2022, 7\penalty0 (3):\penalty0
+  6075-6082.
+
+\bibitem[Domuta et~al.(2021)Domuta and Palade]{domuta2021two}
+DOMUTA~I, PALADE~T~P.
+\newblock Two-way ranging algorithms for clock error
+  compensation\allowbreak[J].
+\newblock IEEE Transactions on Vehicular Technology, 2021, 70\penalty0
+  (8):\penalty0 8237-8250.
+
+\bibitem[Cano et~al.(2022)Cano, Pag{\`e}s, Chaumette, and LeNy]{cano2022clock}
+CANO~J, PAG{\`E}S~G, CHAUMETTE~{\'E}, et~al.
+\newblock Clock and power-induced bias correction for uwb time-of-flight
+  measurements. ieee robot autom lett 7 (2): 2431--2438\allowbreak[Z].
+\newblock 2022.
+
+\bibitem[Ayman~Shalaby et~al.(2022)Ayman~Shalaby, Champagne~Cossette, Forbes,
+  and Le~Ny]{ayman2022calibration}
+AYMAN~SHALABY~M, CHAMPAGNE~COSSETTE~C, FORBES~J~R, et~al.
+\newblock Calibration and uncertainty characterization for ultra-wideband
+  two-way-ranging measurements\allowbreak[J].
+\newblock arXiv e-prints, 2022:\penalty0 arXiv-2210.
+
+\bibitem[Cano et~al.(2023)Cano and Le~Ny]{cano2023ranging}
+CANO~J, LE~NY~J.
+\newblock Ranging-based localizability optimization for mobile robotic
+  networks\allowbreak[J].
+\newblock IEEE Transactions on Robotics, 2023, 39\penalty0 (4):\penalty0
+  2842-2860.
+
+\bibitem[Nguyen et~al.(2023)Nguyen and Xie]{nguyen2023relative}
+NGUYEN~T~H, XIE~L.
+\newblock Relative transformation estimation based on fusion of odometry and
+  uwb ranging data\allowbreak[J].
+\newblock IEEE Transactions on Robotics, 2023, 39\penalty0 (4):\penalty0
+  2861-2877.
+
+\bibitem[Jia et~al.(2023)Jia, Xiong, and Wang]{jia2023distributed}
+JIA~S, XIONG~R, WANG~Y.
+\newblock Distributed initialization for visual-inertial-ranging odometry with
+  position-unknown uwb network\allowbreak[C].
+\newblock 2023 IEEE International Conference on Robotics and Automation (ICRA).
+\newblock IEEE, 2023. 6246-6252.
+
+\bibitem[Liu et~al.(2023)Liu and Hu]{liu2023relative}
+LIU~J, HU~G.
+\newblock Relative localization estimation for multiple robots via the rotating
+  ultra-wideband tag\allowbreak[J].
+\newblock IEEE Robotics and Automation Letters, 2023, 8\penalty0 (7):\penalty0
+  4187-4194.
+
+\bibitem[Bux et~al.(2005)Bux, Closs, Kuemmerle, Keller, and
+  Mueller]{bux2005chapter}
+BUX~W, CLOSS~F, KUEMMERLE~K, et~al.
+\newblock Chapter 2 the token ring\allowbreak[M].
+\newblock Local Area Networks: An Advanced Course: Glasgow, July 11--22, 1983
+  Proceedings.
+\newblock Springer, 2005. 36-63.
+
+\bibitem[917(2020)]{9179124}
+Ieee standard for low-rate wireless networks--amendment 1: Enhanced ultra
+  wideband (uwb) physical layers (phys) and associated ranging
+  techniques\allowbreak[J/OL].
+\newblock IEEE Std 802.15.4z-2020 (Amendment to IEEE Std 802.15.4-2020),
+  2020:\penalty0 1-174.
+\newblock DOI: \doi{10.1109/IEEESTD.2020.9179124}.
+
+\bibitem[Guo et~al.(2017)Guo, Qiu, Meng, Xie, and Teo]{guo2017ultra}
+GUO~K, QIU~Z, MENG~W, et~al.
+\newblock Ultra-wideband based cooperative relative localization algorithm and
+  experiments for multiple unmanned aerial vehicles in gps denied
+  environments\allowbreak[J].
+\newblock International Journal of Micro Air Vehicles, 2017, 9\penalty0
+  (3):\penalty0 169-186.
+
+\bibitem[Li et~al.(2020)Li, Coppola, De~Wagter, and De~Croon]{li2020autonomous}
+LI~S, COPPOLA~M, DE~WAGTER~C, et~al.
+\newblock An autonomous swarm of micro flying robots with range-based relative
+  localization\allowbreak[J].
+\newblock arXiv preprint arXiv:2003.05853, 2020.
+
+\bibitem[Shan et~al.(2022)Shan, Huo, Zeng, Li, Wu, and Luo]{shan2022ultra}
+SHAN~F, HUO~H, ZENG~J, et~al.
+\newblock Ultra-wideband swarm ranging protocol for dynamic and dense
+  networks\allowbreak[J].
+\newblock IEEE/ACM Transactions on Networking, 2022, 30\penalty0 (6):\penalty0
+  2834-2848.
+
+\bibitem[Shan et~al.(2021)Shan, Zeng, Li, Luo, and Wu]{shan2021ultra}
+SHAN~F, ZENG~J, LI~Z, et~al.
+\newblock Ultra-wideband swarm ranging\allowbreak[C].
+\newblock IEEE INFOCOM 2021-IEEE Conference on Computer Communications.
+\newblock IEEE, 2021. 1-10.
+
+\bibitem[V{\'a}s{\'a}rhelyi et~al.(2018)V{\'a}s{\'a}rhelyi, Vir{\'a}gh,
+  Somorjai, Nepusz, Eiben, and Vicsek]{vasarhelyi2018optimized}
+V{\'A}S{\'A}RHELYI~G, VIR{\'A}GH~C, SOMORJAI~G, et~al.
+\newblock Optimized flocking of autonomous drones in confined
+  environments\allowbreak[J].
+\newblock Science Robotics, 2018, 3\penalty0 (20):\penalty0 eaat3536.
+
+\bibitem[Jia et~al.(2022)Jia, Guo, Li, Yu, and Guo]{jia2022composite}
+JIA~J, GUO~K, LI~W, et~al.
+\newblock Composite filtering for uwb-based localization of quadrotor uav with
+  skewed measurements and uncertain dynamics\allowbreak[J].
+\newblock IEEE Transactions on Instrumentation and Measurement, 2022,
+  71:\penalty0 1-13.
+
+\bibitem[Oumar et~al.(2023)Oumar, Tokhi, Sattar, Ibrahim, and
+  Dyllon]{oumar2023indoor}
+OUMAR~O~A, TOKHI~M~O, SATTAR~T~P, et~al.
+\newblock Indoor localisation of mobile robots with ultra wideband using
+  experimental tdoa\allowbreak[C].
+\newblock Climbing and Walking Robots Conference.
+\newblock Springer, 2023. 236-250.
+
+\bibitem[Brandst{\"a}tter et~al.(2022)Brandst{\"a}tter, Smolka, Stoller,
+  Tiwari, and Grosu]{brandstatter2022multi}
+BRANDST{\"A}TTER~A, SMOLKA~S~A, STOLLER~S~D, et~al.
+\newblock Multi-agent spatial predictive control with application to drone
+  flocking (extended version)\allowbreak[J].
+\newblock arXiv preprint arXiv:2203.16960, 2022.
+
+\bibitem[Cao et~al.(2021)Cao, Liu, Yuen, Athukorala, Ng, Mathanraj, and
+  Tan]{cao2021relative}
+CAO~Z, LIU~R, YUEN~C, et~al.
+\newblock Relative localization of mobile robots with multiple ultra-wideband
+  ranging measurements\allowbreak[C].
+\newblock 2021 IEEE/RSJ International Conference on Intelligent Robots and
+  Systems (IROS).
+\newblock IEEE, 2021. 5857-5863.
+
+\bibitem[Allotta et~al.(2016)Allotta, Caiti, Costanzi, Fanelli, Meli, and
+  Ridolfi]{allotta2016development}
+ALLOTTA~B, CAITI~A, COSTANZI~R, et~al.
+\newblock Development and online validation of an ukf-based navigation
+  algorithm for auvs\allowbreak[J].
+\newblock IFAC-PapersOnLine, 2016, 49\penalty0 (15):\penalty0 69-74.
+
+\bibitem[Bo et~al.(2019)Bo, Razzaqi, and Yalong]{bo2019cooperative}
+BO~X, RAZZAQI~A~A, YALONG~L.
+\newblock Cooperative localisation of auvs based on huber-based robust
+  algorithm and adaptive noise estimation\allowbreak[J].
+\newblock The Journal of Navigation, 2019, 72\penalty0 (4):\penalty0 875-893.
+
+\bibitem[Huang et~al.(2017)Huang, Zhang, Xu, Wu, and Chambers]{huang2017new}
+HUANG~Y, ZHANG~Y, XU~B, et~al.
+\newblock A new outlier-robust student's t based gaussian approximate filter
+  for cooperative localization\allowbreak[J].
+\newblock IEEE/ASME Transactions on Mechatronics, 2017, 22\penalty0
+  (5):\penalty0 2380-2386.
+
+\bibitem[Akai(2023)]{akai2023reliable}
+AKAI~N.
+\newblock Reliable monte carlo localization for mobile robots\allowbreak[J].
+\newblock Journal of Field Robotics, 2023, 40\penalty0 (3):\penalty0 595-613.
+
+\bibitem[Wang et~al.(2023)Wang, Ma, Lai, and Zhao]{wang2023neural}
+WANG~B, MA~Z, LAI~S, et~al.
+\newblock Neural moving horizon estimation for robust flight
+  control\allowbreak[J].
+\newblock IEEE Transactions on Robotics, 2023, 40:\penalty0 639-659.
+
+\bibitem[Kruse et~al.(2025)Kruse, Griebel, and Graichen]{kruse2025adaptive}
+KRUSE~T, GRIEBEL~T, GRAICHEN~K.
+\newblock Adaptive kalman filtering: Measurement and process noise covariance
+  estimation using kalman smoothing\allowbreak[J].
+\newblock IEEE Access, 2025.
+
+\bibitem[Davari et~al.(2019)Davari and Gholami]{davari2019variational}
+DAVARI~N, GHOLAMI~A.
+\newblock Variational bayesian adaptive kalman filter for asynchronous
+  multirate multi-sensor integrated navigation system\allowbreak[J].
+\newblock Ocean Engineering, 2019, 174:\penalty0 108-116.
+
+\bibitem[Hajiyev et~al.(2023)Hajiyev and Hacizade]{hajiyev2023covariance}
+HAJIYEV~C, HACIZADE~U.
+\newblock A covariance matching-based adaptive measurement differencing kalman
+  filter for ins’s error compensation\allowbreak[J].
+\newblock WSEAS Transactions on Systems and Control, 2023, 18:\penalty0
+  478-486.
+
+\bibitem[Youn et~al.(2020)Youn, Ko, Gadsden, and Myung]{youn2020novel}
+YOUN~W, KO~N~Y, GADSDEN~S~A, et~al.
+\newblock A novel multiple-model adaptive kalman filter for an unknown
+  measurement loss probability\allowbreak[J].
+\newblock IEEE Transactions on Instrumentation and Measurement, 2020,
+  70:\penalty0 1-11.
+
+\bibitem[Lin et~al.(2022)Lin, Chang~Chien, Wang, Lin, and Li]{lin2022efficient}
+LIN~S~H, CHANG~CHIEN~H~H, WANG~W~W, et~al.
+\newblock An efficient iakf approach for indoor positioning drift
+  correction\allowbreak[J].
+\newblock Sensors, 2022, 22\penalty0 (15):\penalty0 5697.
 
 \end{thebibliography}
