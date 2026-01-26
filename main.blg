@@ -16,45 +16,45 @@ Warning--empty year in lucahigh
 Warning--empty year in lucahigh
 Warning--empty year in lucahigh
 Warning--empty author in 9179124
-You've used 40 entries,
+You've used 70 entries,
             4073 wiz_defined-function locations,
-            1090 strings with 14983 characters,
-and the built_in function-call counts, 282999 in all, are:
-= -- 4766
-> -- 33935
-< -- 41819
-+ -- 11266
-- -- 2278
-* -- 1677
-:= -- 38848
-add.period$ -- 127
-call.type$ -- 40
-change.case$ -- 187
-chr.to.int$ -- 10370
-cite$ -- 45
-duplicate$ -- 843
-empty$ -- 2217
-format.name$ -- 745
-if$ -- 73060
-int.to.chr$ -- 1
-int.to.str$ -- 41
+            1239 strings with 21305 characters,
+and the built_in function-call counts, 507146 in all, are:
+= -- 8520
+> -- 61034
+< -- 74975
++ -- 20234
+- -- 4252
+* -- 2905
+:= -- 69732
+add.period$ -- 224
+call.type$ -- 70
+change.case$ -- 333
+chr.to.int$ -- 18567
+cite$ -- 75
+duplicate$ -- 1464
+empty$ -- 3762
+format.name$ -- 1380
+if$ -- 130846
+int.to.chr$ -- 2
+int.to.str$ -- 71
 missing$ -- 0
-newline$ -- 216
-num.names$ -- 117
-pop$ -- 15062
+newline$ -- 373
+num.names$ -- 207
+pop$ -- 27148
 preamble$ -- 1
-purify$ -- 40
+purify$ -- 70
 quote$ -- 0
-skip$ -- 29503
+skip$ -- 52758
 stack$ -- 0
-substring$ -- 13560
-swap$ -- 134
-text.length$ -- 439
+substring$ -- 24195
+swap$ -- 243
+text.length$ -- 801
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 500
+type$ -- 870
 warning$ -- 4
-while$ -- 581
+while$ -- 1039
 width$ -- 0
-write$ -- 577
+write$ -- 991
 (There was 1 error message)

@@ -1,4 +1,4 @@
-\begin{thebibliography}{40}
+\begin{thebibliography}{70}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -283,5 +283,211 @@ LIN~S~H, CHANG~CHIEN~H~H, WANG~W~W, et~al.
 \newblock An efficient iakf approach for indoor positioning drift
   correction\allowbreak[J].
 \newblock Sensors, 2022, 22\penalty0 (15):\penalty0 5697.
+
+\bibitem[Ding et~al.(2020)Ding, Huang, Yuan, and Dong]{ding2020introduction}
+DING~Z, HUANG~Y, YUAN~H, et~al.
+\newblock Introduction to reinforcement learning\allowbreak[M].
+\newblock Deep reinforcement learning: fundamentals, research and applications.
+\newblock Springer, 2020. 47-123.
+
+\bibitem[Clifton et~al.(2020)Clifton and Laber]{clifton2020q}
+CLIFTON~J, LABER~E.
+\newblock Q-learning: Theory and applications\allowbreak[J].
+\newblock Annual Review of Statistics and Its Application, 2020, 7\penalty0
+  (1):\penalty0 279-301.
+
+\bibitem[Li(2023)]{li2023deep}
+LI~S~E.
+\newblock Deep reinforcement learning\allowbreak[M].
+\newblock Reinforcement learning for sequential decision and optimal control.
+\newblock Springer, 2023. 365-402.
+
+\bibitem[Mnih et~al.(2015)Mnih, Kavukcuoglu, Silver, Rusu, Veness, Bellemare,
+  Graves, Riedmiller, Fidjeland, Ostrovski, et~al.]{mnih2015human}
+MNIH~V, KAVUKCUOGLU~K, SILVER~D, et~al.
+\newblock Human-level control through deep reinforcement
+  learning\allowbreak[J].
+\newblock nature, 2015, 518\penalty0 (7540):\penalty0 529-533.
+
+\bibitem[Tang et~al.(2025)Tang, Abbatematteo, Hu, Chandra,
+  Mart{\'\i}n-Mart{\'\i}n, and Stone]{tang2025deep}
+TANG~C, ABBATEMATTEO~B, HU~J, et~al.
+\newblock Deep reinforcement learning for robotics: A survey of real-world
+  successes\allowbreak[J].
+\newblock Annual Review of Control, Robotics, and Autonomous Systems, 2025,
+  8\penalty0 (1):\penalty0 153-188.
+
+\bibitem[Noorani et~al.(2025)Noorani, Mavridis, and Baras]{noorani2025risk}
+NOORANI~E, MAVRIDIS~C~N, BARAS~J~S.
+\newblock Risk-sensitive reinforcement learning with exponential
+  criteria\allowbreak[J].
+\newblock IEEE Transactions on Cybernetics, 2025.
+
+\bibitem[Bellemare et~al.(2023)Bellemare, Dabney, and
+  Rowland]{bellemare2023distributional}
+BELLEMARE~M~G, DABNEY~W, ROWLAND~M.
+\newblock Distributional reinforcement learning\allowbreak[M].
+\newblock MIT Press, 2023.
+
+\bibitem[Luis et~al.(2024)Luis, Bottero, Vinogradska, Berkenkamp, and
+  Peters]{luis2024value}
+LUIS~C~E, BOTTERO~A~G, VINOGRADSKA~J, et~al.
+\newblock Value-distributional model-based reinforcement
+  learning\allowbreak[J].
+\newblock Journal of Machine Learning Research, 2024, 25\penalty0
+  (298):\penalty0 1-42.
+
+\bibitem[Urp{\'\i} et~al.(2021)Urp{\'\i}, Curi, and Krause]{urpi2021risk}
+URP{\'I}~N~A, CURI~S, KRAUSE~A.
+\newblock Risk-averse offline reinforcement learning\allowbreak[J].
+\newblock arXiv preprint arXiv:2102.05371, 2021.
+
+\bibitem[Ma et~al.(2020{\natexlab{a}})Ma, Zhang, Xia, Zhou, Yang, and
+  Zhao]{ma2020distributional}
+MA~X, ZHANG~Q, XIA~L, et~al.
+\newblock Distributional soft actor critic for risk sensitive
+  learning\allowbreak[J].
+\newblock arXiv preprint arXiv:2004.14547, 2020, 7.
+
+\bibitem[Kahn et~al.(2017)Kahn, Villaflor, Pong, Abbeel, and
+  Levine]{kahn2017uncertainty}
+KAHN~G, VILLAFLOR~A, PONG~V, et~al.
+\newblock Uncertainty-aware reinforcement learning for collision
+  avoidance\allowbreak[J].
+\newblock arXiv preprint arXiv:1702.01182, 2017.
+
+\bibitem[Folgoc et~al.(2021)Folgoc, Baltatzis, Desai, Devaraj, Ellis,
+  Manzanera, Nair, Qiu, Schnabel, and Glocker]{folgoc2021mc}
+FOLGOC~L~L, BALTATZIS~V, DESAI~S, et~al.
+\newblock Is mc dropout bayesian?\allowbreak[J].
+\newblock arXiv preprint arXiv:2110.04286, 2021.
+
+\bibitem[Peer et~al.(2021)Peer, Tessler, Merlis, and Meir]{peer2021ensemble}
+PEER~O, TESSLER~C, MERLIS~N, et~al.
+\newblock Ensemble bootstrapping for q-learning\allowbreak[C].
+\newblock International conference on machine learning.
+\newblock PMLR, 2021. 8454-8463.
+
+\bibitem[Oyewola et~al.(2024)Oyewola, Akinwunmi, and
+  Omotehinwa]{oyewola2024deep}
+OYEWOLA~D~O, AKINWUNMI~S~A, OMOTEHINWA~T~O.
+\newblock Deep lstm and lstm-attention q-learning based reinforcement learning
+  in oil and gas sector prediction\allowbreak[J].
+\newblock Knowledge-Based Systems, 2024, 284:\penalty0 111290.
+
+\bibitem[Krichen et~al.(2025)Krichen and Mihoub]{krichen2025long}
+KRICHEN~M, MIHOUB~A.
+\newblock Long short-term memory networks: A comprehensive
+  survey\allowbreak[J].
+\newblock AI, 2025, 6\penalty0 (9):\penalty0 215.
+
+\bibitem[Fan et~al.(2020)Fan, Long, Liu, Pan, Yang, and
+  Manocha]{fan2020learning}
+FAN~T, LONG~P, LIU~W, et~al.
+\newblock Learning resilient behaviors for navigation under
+  uncertainty\allowbreak[C].
+\newblock 2020 IEEE International Conference on Robotics and Automation (ICRA).
+\newblock IEEE, 2020. 5299-5305.
+
+\bibitem[Cho et~al.(2014)Cho, Van~Merri{\"e}nboer, Bahdanau, and
+  Bengio]{cho2014properties}
+CHO~K, VAN~MERRI{\"E}NBOER~B, BAHDANAU~D, et~al.
+\newblock On the properties of neural machine translation: Encoder-decoder
+  approaches\allowbreak[J].
+\newblock arXiv preprint arXiv:1409.1259, 2014.
+
+\bibitem[Gu et~al.(2024)Gu, Yang, Du, Chen, Walter, Wang, and
+  Knoll]{gu2024review}
+GU~S, YANG~L, DU~Y, et~al.
+\newblock A review of safe reinforcement learning: Methods, theories and
+  applications\allowbreak[J].
+\newblock IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024.
+
+\bibitem[Brunke et~al.(2022)Brunke, Greeff, Hall, Yuan, Zhou, Panerati, and
+  Schoellig]{brunke2022safe}
+BRUNKE~L, GREEFF~M, HALL~A~W, et~al.
+\newblock Safe learning in robotics: From learning-based control to safe
+  reinforcement learning\allowbreak[J].
+\newblock Annual Review of Control, Robotics, and Autonomous Systems, 2022,
+  5\penalty0 (1):\penalty0 411-444.
+
+\bibitem[Yu et~al.(2022)Yu, Xu, and Zhang]{yu2022towards}
+YU~H, XU~W, ZHANG~H.
+\newblock Towards safe reinforcement learning with a safety editor
+  policy\allowbreak[J].
+\newblock Advances in Neural Information Processing Systems, 2022, 35:\penalty0
+  2608-2621.
+
+\bibitem[Ma et~al.(2020{\natexlab{b}})Ma, Karkus, Hsu, Lee, and
+  Ye]{ma2020discriminative}
+MA~X, KARKUS~P, HSU~D, et~al.
+\newblock Discriminative particle filter reinforcement learning for complex
+  partial observations\allowbreak[J].
+\newblock arXiv preprint arXiv:2002.09884, 2020.
+
+\bibitem[Ma et~al.(2025)Ma, Chen, Xia, Yang, Zhao, and Zhou]{ma2025dsac}
+MA~X, CHEN~J, XIA~L, et~al.
+\newblock Dsac: Distributional soft actor-critic for risk-sensitive
+  reinforcement learning\allowbreak[J].
+\newblock Journal of Artificial Intelligence Research, 2025, 83.
+
+\bibitem[Lowet et~al.(2025)Lowet, Zheng, Meng, Matias, Drugowitsch, and
+  Uchida]{lowet2025opponent}
+LOWET~A~S, ZHENG~Q, MENG~M, et~al.
+\newblock An opponent striatal circuit for distributional reinforcement
+  learning\allowbreak[J].
+\newblock Nature, 2025:\penalty0 1-10.
+
+\bibitem[Dabney et~al.(2020)Dabney, Kurth-Nelson, Uchida, Starkweather,
+  Hassabis, Munos, and Botvinick]{dabney2020distributional}
+DABNEY~W, KURTH-NELSON~Z, UCHIDA~N, et~al.
+\newblock A distributional code for value in dopamine-based reinforcement
+  learning\allowbreak[J].
+\newblock Nature, 2020, 577\penalty0 (7792):\penalty0 671-675.
+
+\bibitem[Liu et~al.(2024)Liu, Yin, Jiang, Liang, and Li]{liu2024attention}
+LIU~J, YIN~J, JIANG~Z, et~al.
+\newblock Attention-based distributional reinforcement learning for safe and
+  efficient autonomous driving\allowbreak[J].
+\newblock IEEE Robotics and Automation Letters, 2024, 9\penalty0 (9):\penalty0
+  7477-7484.
+
+\bibitem[Wang et~al.(2025)Wang, Li, Gan, Xu, Zhang, Li, and
+  Wang]{wang2025adaptive}
+WANG~Z, LI~W, GAN~J, et~al.
+\newblock Adaptive-risk-aware end-to-end control system for mapless navigation
+  of drones\allowbreak[J].
+\newblock IEEE Robotics and Automation Letters, 2025.
+
+\bibitem[Zhou et~al.(2020)Zhou, Wang, and Feng]{zhou2020non}
+ZHOU~F, WANG~J, FENG~X.
+\newblock Non-crossing quantile regression for distributional reinforcement
+  learning\allowbreak[J].
+\newblock Advances in neural information processing systems, 2020, 33:\penalty0
+  15909-15919.
+
+\bibitem[Dabney et~al.(2018)Dabney, Ostrovski, Silver, and
+  Munos]{dabney2018implicit}
+DABNEY~W, OSTROVSKI~G, SILVER~D, et~al.
+\newblock Implicit quantile networks for distributional reinforcement
+  learning\allowbreak[C].
+\newblock International conference on machine learning.
+\newblock PMLR, 2018. 1096-1105.
+
+\bibitem[Kamran et~al.(2021)Kamran, Engelgeh, Busch, Fischer, and
+  Stiller]{kamran2021minimizing}
+KAMRAN~D, ENGELGEH~T, BUSCH~M, et~al.
+\newblock Minimizing safety interference for safe and comfortable automated
+  driving with distributional reinforcement learning\allowbreak[C].
+\newblock 2021 IEEE/RSJ international conference on intelligent robots and
+  systems (IROS).
+\newblock IEEE, 2021. 1236-1243.
+
+\bibitem[Choi et~al.(2021)Choi, Dance, Kim, Hwang, and Park]{choi2021risk}
+CHOI~J, DANCE~C, KIM~J~E, et~al.
+\newblock Risk-conditioned distributional soft actor-critic for risk-sensitive
+  navigation\allowbreak[C].
+\newblock 2021 IEEE International Conference on Robotics and Automation (ICRA).
+\newblock IEEE, 2021. 8337-8344.
 
 \end{thebibliography}
