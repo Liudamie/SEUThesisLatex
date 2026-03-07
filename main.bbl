@@ -1,4 +1,4 @@
-\begin{thebibliography}{70}
+\begin{thebibliography}{73}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -85,7 +85,8 @@ KIM~D~H, FARHAD~A, PYUN~J~Y.
 \newblock IEEE Internet of Things Journal, 2022, 10\penalty0 (2):\penalty0
   1822-1835.
 
-\bibitem[Zhao et~al.(2022)Zhao, Goudar, and Schoellig]{zhao2022finding}
+\bibitem[Zhao et~al.(2022{\natexlab{a}})Zhao, Goudar, and
+  Schoellig]{zhao2022finding}
 ZHAO~W, GOUDAR~A, SCHOELLIG~A~P.
 \newblock Finding the right place: Sensor placement for uwb time difference of
   arrival localization in cluttered indoor environments\allowbreak[J].
@@ -234,7 +235,8 @@ BO~X, RAZZAQI~A~A, YALONG~L.
   algorithm and adaptive noise estimation\allowbreak[J].
 \newblock The Journal of Navigation, 2019, 72\penalty0 (4):\penalty0 875-893.
 
-\bibitem[Huang et~al.(2017)Huang, Zhang, Xu, Wu, and Chambers]{huang2017new}
+\bibitem[Huang et~al.(2017{\natexlab{a}})Huang, Zhang, Xu, Wu, and
+  Chambers]{huang2017new}
 HUANG~Y, ZHANG~Y, XU~B, et~al.
 \newblock A new outlier-robust student's t based gaussian approximate filter
   for cooperative localization\allowbreak[J].
@@ -489,5 +491,26 @@ CHOI~J, DANCE~C, KIM~J~E, et~al.
   navigation\allowbreak[C].
 \newblock 2021 IEEE International Conference on Robotics and Automation (ICRA).
 \newblock IEEE, 2021. 8337-8344.
+
+\bibitem[Zhao et~al.(2022{\natexlab{b}})Zhao, Xun, and Liu]{zhao2022clockids}
+ZHAO~Y, XUN~Y, LIU~J.
+\newblock Clockids: A real-time vehicle intrusion detection system based on
+  clock skew\allowbreak[J].
+\newblock IEEE Internet of Things Journal, 2022, 9\penalty0 (17):\penalty0
+  15593-15606.
+
+\bibitem[Huang et~al.(2017{\natexlab{b}})Huang, Zhang, Li, Wu, and
+  Chambers]{huang2017novel}
+HUANG~Y, ZHANG~Y, LI~N, et~al.
+\newblock A novel robust student's t-based kalman filter\allowbreak[J].
+\newblock IEEE Transactions on Aerospace and Electronic Systems, 2017,
+  53\penalty0 (3):\penalty0 1545-1554.
+
+\bibitem[Tzikas et~al.(2008)Tzikas, Likas, and
+  Galatsanos]{tzikas2008variational}
+TZIKAS~D~G, LIKAS~A~C, GALATSANOS~N~P.
+\newblock The variational approximation for bayesian inference\allowbreak[J].
+\newblock IEEE Signal Processing Magazine, 2008, 25\penalty0 (6):\penalty0
+  131-146.
 
 \end{thebibliography}

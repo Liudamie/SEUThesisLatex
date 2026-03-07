@@ -13,13 +13,36 @@
 \contentsline {figure}{\numberline {1{}-5}{\ignorespaces 研究内容}}{6}{figure.caption.17}%
 \addvspace {10.0pt}
 \addvspace {10.0pt}
+\contentsline {figure}{\numberline {3{}-1}{\ignorespaces 无人机集群场景的集群测距协议示意图}}{18}{figure.caption.18}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {定期广播测距报文}}}{18}{subfigure.1.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {收集足够的时间戳来计算飞行时间}}}{18}{subfigure.1.2}%
+\contentsline {figure}{\numberline {3{}-2}{\ignorespaces 无人机集群中的报文交换与测距表}}{18}{figure.caption.19}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {带有时间戳的报文交换}}}{18}{subfigure.2.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {计算距离的集群测距表}}}{18}{subfigure.2.2}%
+\contentsline {figure}{\numberline {3{}-3}{\ignorespaces 理想情况下的集群测距}}{19}{figure.caption.20}%
+\contentsline {figure}{\numberline {3{}-4}{\ignorespaces 由于时钟偏移所导致的测距失败}}{19}{figure.caption.21}%
+\contentsline {figure}{\numberline {3{}-5}{\ignorespaces 静态的固定测距周期所导致的连续测距失败现象}}{20}{figure.caption.22}%
+\contentsline {figure}{\numberline {3{}-6}{\ignorespaces 测距报文不匹配而导致的测距失败次数增多现象}}{21}{figure.caption.23}%
+\contentsline {figure}{\numberline {3{}-7}{\ignorespaces 限制抖动大小的特殊情况}}{24}{figure.caption.25}%
+\contentsline {figure}{\numberline {3{}-8}{\ignorespaces 报文不匹配现象}}{25}{figure.caption.26}%
+\contentsline {figure}{\numberline {3{}-9}{\ignorespaces 采用权衡测距的鲁棒集群测距协议步骤}}{26}{figure.caption.27}%
+\contentsline {figure}{\numberline {3{}-10}{\ignorespaces 无人机集群系统及搭载的机载传感器}}{28}{figure.caption.28}%
+\contentsline {figure}{\numberline {3{}-11}{\ignorespaces 自适应扩展卡尔曼滤波算法流程图}}{34}{figure.caption.29}%
+\contentsline {figure}{\numberline {3{}-12}{\ignorespaces 实验用到的无人机以及传感器}}{36}{figure.caption.30}%
+\contentsline {figure}{\numberline {3{}-13}{\ignorespaces 实验场地}}{37}{figure.caption.31}%
+\contentsline {figure}{\numberline {3{}-14}{\ignorespaces 不同规模无人机集群在平均测距周期为100 ms、仿真时长为200s条件下的仿真结果 }}{40}{figure.caption.33}%
+\contentsline {figure}{\numberline {3{}-15}{\ignorespaces 鲁棒集群测距协议的理论分析与实验结果对比}}{41}{figure.caption.34}%
+\contentsline {figure}{\numberline {3{}-16}{\ignorespaces 24 架无人机连续测距失败次数最大值与平均值的统计结果 }}{41}{figure.caption.35}%
+\contentsline {figure}{\numberline {3{}-17}{\ignorespaces 应用鲁棒集群测距协议后，不同测距周期与速度下连续测距失败的缓解情况}}{42}{figure.caption.37}%
+\contentsline {figure}{\numberline {3{}-18}{\ignorespaces 13架无人机编队飞行的顶部视图}}{43}{figure.caption.38}%
+\contentsline {figure}{\numberline {3{}-19}{\ignorespaces 13架无人机编队飞行过程中获取的5架无人机测量数据}}{43}{figure.caption.39}%
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {4{}-1}{\ignorespaces 插入图片示例}}{23}{figure.caption.18}%
-\contentsline {figure}{\numberline {4{}-2}{\ignorespaces GitHub}}{26}{figure.caption.19}%
-\contentsline {figure}{\numberline {4{}-3}{\ignorespaces npm}}{26}{figure.caption.19}%
-\contentsline {figure}{\numberline {4{}-4}{\ignorespaces 东南大学校徽的视觉设计}}{27}{figure.caption.20}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {彩色标志}}}{27}{subfigure.4.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {单色标志}}}{27}{subfigure.4.2}%
+\contentsline {figure}{\numberline {4{}-1}{\ignorespaces 插入图片示例}}{45}{figure.caption.40}%
+\contentsline {figure}{\numberline {4{}-2}{\ignorespaces GitHub}}{48}{figure.caption.41}%
+\contentsline {figure}{\numberline {4{}-3}{\ignorespaces npm}}{48}{figure.caption.41}%
+\contentsline {figure}{\numberline {4{}-4}{\ignorespaces 东南大学校徽的视觉设计}}{49}{figure.caption.42}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {彩色标志}}}{49}{subfigure.4.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {单色标志}}}{49}{subfigure.4.2}%
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}

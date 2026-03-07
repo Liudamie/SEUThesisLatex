@@ -264,54 +264,14 @@
 
 一些理学和工学专业的研究可能需要在论文中插入为代码或算法，本模板同样支持这一功能。示例代码如下：
 
-\begin{tcolorbox}
-\begin{lstlisting}[language=TeX]
-\begin{algorithm}
-\caption{辗转相除法}
-\label{alg:4_1}
-\begin{algorithmic}[1]
-\Require 一个整数$m$
-\Require 另一个整数$n$
-\Ensure $m$和$n$的最大公约数$r$
-\While {$n > 0$}
-    \State $t \leftarrow m ~ mod ~ n$
-    \State $m \leftarrow n$
-    \State $n \leftarrow t$
-\EndWhile
-\State $r \leftarrow t$
-\end{algorithmic}
-\end{algorithm}
-\end{lstlisting}
-\end{tcolorbox}
+
 
 \noindent 上述代码的编译结果如算法 \ref{alg:4_1} 所示。
 
-\begin{algorithm}
-\caption{辗转相除法}
-\label{alg:4_1}
-\begin{algorithmic}[1]
-\Require 一个整数$m$
-\Require 另一个整数$n$
-\Ensure $m$和$n$的最大公约数$r$
-\While {$n > 0$}
-    \State $t \leftarrow m ~ mod ~ n$
-    \State $m \leftarrow n$
-    \State $n \leftarrow t$
-\EndWhile
-\State $r \leftarrow t$
-\end{algorithmic}
-\end{algorithm}
 
 和图片和表格类似，声明算法之前你首先要声明用于安放算法伪代码的浮动体：
 
-\begin{tcolorbox}
-\begin{lstlisting}[language=TeX]
-\begin{algorithm}
-  \caption{辗转相除法}
-  \label{alg:4_1}
-\end{algorithm}
-\end{lstlisting}
-\end{tcolorbox}
+
 
 \noindent 随后使用{\codefont algorithmic}开始添加你的伪代码的具体内容。在这里由于篇幅所限，我们仅会提示一些{\codefont algorithmic}最简单的用法。对于算法的输入项，你需要使用{\codefont $\backslash$Require}命令指明，而输出项使用{\codefont $\backslash$Ensure}命令。对于声明和赋值语句，请你以{\codefont $\backslash$State}开头，而对于判断、循环语句，应该使用如下的形式表达：
 
@@ -403,30 +363,13 @@
 \end{lstlisting}
 \end{tcolorbox}
 
-\noindent 你也可以设计你自己的引用标签，上面的示例只是我们的一个建议。很多编辑器在你输入{\codefont ref}时会自动弹出代码提示，自定义标签配合代码提示能够帮助你更快索引到你想要的引用标签。
 
 \section{代码环境}
 
-一些计算机、软件、电子等专业的毕业论文可能需要展示少量代码，本模板同样也提供了代码环境。比如，下面我们展示了一个Java程序：
 
-\begin{tcolorbox}
-\begin{lstlisting}[language=Java]
-public static void main(String[] args) {
-    System.out.println("你好世界");
-}
-\end{lstlisting}
-\end{tcolorbox}
-
-想要实现这样的效果，你只需要将代码包裹在{\codefont lstlisting}环境中。你还可以指定代码所属的语言，这样{\codefont lstlisting}环境就可以为你实现一定程度上的代码高亮。想要查询你所使用的计算机语言是否被{\codefont lstlisting}支持，请直接参阅{\codefont lstlisting}的官方文档。
 
 \section{术语与符号}
 
-你的论文中可能涉及到了大量的符号、英文缩写或术语，你可以在文中对这些符号进行说明，就像这样：
 
-\begin{tcolorbox}
-\begin{lstlisting}[language=TeX]
-\nomenclature{PDF}{Portable Document Format}
-\end{lstlisting}
-\end{tcolorbox}
 
-\noindent 你应该在{\codefont nomenclature}命令后的第一对括号中填写术语或符号名称，下一对括号中填写对术语或符号的解释或定义。当论文编译时，这些术语与符号将会被自动列入目录页后的术语与符号表，并按照英文字母序排列。
+
