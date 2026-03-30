@@ -1,4 +1,4 @@
-\begin{thebibliography}{73}
+\begin{thebibliography}{86}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -512,5 +512,92 @@ TZIKAS~D~G, LIKAS~A~C, GALATSANOS~N~P.
 \newblock The variational approximation for bayesian inference\allowbreak[J].
 \newblock IEEE Signal Processing Magazine, 2008, 25\penalty0 (6):\penalty0
   131-146.
+
+\bibitem[Arcieri et~al.(2025)Arcieri, Papakonstantinou, Straub, and
+  Chatzi]{arcieri2025deep}
+ARCIERI~G, PAPAKONSTANTINOU~K~G, STRAUB~D, et~al.
+\newblock Deep belief markov models for pomdp inference\allowbreak[J].
+\newblock Neural networks, 2025:\penalty0 108386.
+
+\bibitem[Mokhtari et~al.(2018)Mokhtari, Eisen, and Ribeiro]{mokhtari2018iqn}
+MOKHTARI~A, EISEN~M, RIBEIRO~A.
+\newblock Iqn: An incremental quasi-newton method with local superlinear
+  convergence rate\allowbreak[J].
+\newblock SIAM Journal on Optimization, 2018, 28\penalty0 (2):\penalty0
+  1670-1698.
+
+\bibitem[Buchinsky(1998)]{buchinsky1998recent}
+BUCHINSKY~M.
+\newblock Recent advances in quantile regression models: a practical guideline
+  for empirical research\allowbreak[J].
+\newblock Journal of human resources, 1998:\penalty0 88-126.
+
+\bibitem[Filippi et~al.(2020)Filippi, Guastaroba, and
+  Speranza]{filippi2020conditional}
+FILIPPI~C, GUASTAROBA~G, SPERANZA~M~G.
+\newblock Conditional value-at-risk beyond finance: a survey\allowbreak[J].
+\newblock International Transactions in Operational Research, 2020, 27\penalty0
+  (3):\penalty0 1277-1319.
+
+\bibitem[Majumdar et~al.(2019)Majumdar and Pavone]{majumdar2019should}
+MAJUMDAR~A, PAVONE~M.
+\newblock How should a robot assess risk? towards an axiomatic theory of risk
+  in robotics\allowbreak[C].
+\newblock Robotics Research: The 18th International Symposium ISRR.
+\newblock Springer, 2019. 75-84.
+
+\bibitem[Clements et~al.(2019)Clements, Van~Delft, Robaglia, Slaoui, and
+  Toth]{clements2019estimating}
+CLEMENTS~W~R, VAN~DELFT~B, ROBAGLIA~B~M, et~al.
+\newblock Estimating risk and uncertainty in deep reinforcement
+  learning\allowbreak[J].
+\newblock arXiv preprint arXiv:1905.09638, 2019.
+
+\bibitem[Moskovitz et~al.(2021)Moskovitz, Parker-Holder, Pacchiano, and
+  Arbel]{moskovitz2021deep}
+MOSKOVITZ~T, PARKER-HOLDER~J, PACCHIANO~A, et~al.
+\newblock Deep reinforcement learning with dynamic optimism\allowbreak[J].
+\newblock Advances in Neural Information Processing Systems, 2021, 9.
+
+\bibitem[Mavrin et~al.(2019)Mavrin, Yao, Kong, Wu, and
+  Yu]{mavrin2019distributional}
+MAVRIN~B, YAO~H, KONG~L, et~al.
+\newblock Distributional reinforcement learning for efficient
+  exploration\allowbreak[C].
+\newblock International conference on machine learning.
+\newblock PMLR, 2019. 4424-4434.
+
+\bibitem[Maronna et~al.(2019)Maronna, Martin, Yohai, and
+  Salibi{\'a}n-Barrera]{maronna2019robust}
+MARONNA~R~A, MARTIN~R~D, YOHAI~V~J, et~al.
+\newblock Robust statistics: theory and methods (with r)\allowbreak[M].
+\newblock John Wiley \& Sons, 2019.
+
+\bibitem[Brockman et~al.(2016)Brockman, Cheung, Pettersson, Schneider,
+  Schulman, Tang, and Zaremba]{brockman2016openai}
+BROCKMAN~G, CHEUNG~V, PETTERSSON~L, et~al.
+\newblock Openai gym\allowbreak[J].
+\newblock arXiv preprint arXiv:1606.01540, 2016.
+
+\bibitem[Tobin et~al.(2017)Tobin, Fong, Ray, Schneider, Zaremba, and
+  Abbeel]{tobin2017domain}
+TOBIN~J, FONG~R, RAY~A, et~al.
+\newblock Domain randomization for transferring deep neural networks from
+  simulation to the real world\allowbreak[C].
+\newblock 2017 IEEE/RSJ international conference on intelligent robots and
+  systems (IROS).
+\newblock IEEE, 2017. 23-30.
+
+\bibitem[Agarap(2018)]{agarap2018deep}
+AGARAP~A~F.
+\newblock Deep learning using rectified linear units (relu)\allowbreak[J].
+\newblock arXiv preprint arXiv:1803.08375, 2018.
+
+\bibitem[Reyad et~al.(2023)Reyad, Sarhan, and Arafa]{reyad2023modified}
+REYAD~M, SARHAN~A~M, ARAFA~M.
+\newblock A modified adam algorithm for deep neural network
+  optimization\allowbreak[J].
+\newblock Neural Computing and Applications, 2023, 35\penalty0 (23):\penalty0
+  17095-17112.
 
 \end{thebibliography}

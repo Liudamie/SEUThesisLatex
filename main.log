@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.29)  7 MAR 2026 19:57
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.29)  30 MAR 2026 15:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1695,19 +1695,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
  [7] [8
 
-] (./main.lof)
-\tf@lof=\write7
-\openout7 = `main.lof'.
+] (./main.lof
+Underfull \vbox (badness 1661) has occurred while \output is active []
 
  [9
 
-] [10
+])
+\tf@lof=\write7
+\openout7 = `main.lof'.
 
-] (./main.lot)
+
+[10] (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
  [11
+
 
 ] [12
 
@@ -1719,7 +1722,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ] [14
 
-] (./main.nls) (./chapters/chapter1.tex
+] (./main.nls)
+(./chapters/chapter1.tex
 第一章
 File: figures/content/chapter1/地质勘测.png Graphic file (type bmp)
 <figures/content/chapter1/地质勘测.png>
@@ -1777,6 +1781,8 @@ File: figures/content/chapter3/toyexample1.pdf Graphic file (type pdf)
 <use figures/content/chapter3/toyexample1.pdf>
 File: figures/content/chapter3/toyexample2.pdf Graphic file (type pdf)
 <use figures/content/chapter3/toyexample2.pdf>
+File: figures/content/chapter3/dataofmessage.png Graphic file (type bmp)
+<figures/content/chapter3/dataofmessage.png>
 File: figures/content/chapter3/mes_ex_A_Y.png Graphic file (type bmp)
 <figures/content/chapter3/mes_ex_A_Y.png>
 File: figures/content/chapter3/rangingTable.png Graphic file (type bmp)
@@ -1793,32 +1799,28 @@ type bmp)
  [20]
 File: figures/content/chapter3/experiment_w_large.png Graphic file (type bmp)
 <figures/content/chapter3/experiment_w_large.png>
- [21] [22]
-Underfull \vbox (badness 1348) has occurred while \output is active []
-
- [23]
+ [21] [22] [23]
 File: figures/content/chapter3/ProcessTime.png Graphic file (type bmp)
 <figures/content/chapter3/ProcessTime.png>
-
-Underfull \vbox (badness 3281) has occurred while \output is active []
-
  [24]
 File: figures/content/chapter3/Problemwithjitter.png Graphic file (type bmp)
 <figures/content/chapter3/Problemwithjitter.png>
-
-[25]
+ [25]
 File: figures/content/chapter3/SwarmRangingSteps.png Graphic file (type bmp)
 <figures/content/chapter3/SwarmRangingSteps.png>
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 370.
+put line 381.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
-[27]
+Underfull \vbox (badness 2165) has occurred while \output is active []
+
+ [27]
 File: figures/content/chapter3/uwb_sensor.png Graphic file (type bmp)
 <figures/content/chapter3/uwb_sensor.png>
- [28] [29]
+
+[28] [29]
 Missing character: There is no ^^? (U+007F) in font Times New Roman Bold/OT:scr
 ipt=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ^^? (U+007F) in font Times New Roman Bold/OT:scr
@@ -1844,14 +1846,14 @@ Missing character: There is no ß ("DF) in font cmmi8!
 Underfull \vbox (badness 1052) has occurred while \output is active []
 
  [31]
-Overfull \hbox (25.7784pt too wide) detected at line 607
+Overfull \hbox (25.7784pt too wide) detected at line 619
 [][][]\OML/cmm/m/it/12.045 `[] [] \OMS/cmsy/m/n/12.045 ^^@ \OML/cmm/m/it/12.045
  `[] [] \OT1/cmr/m/n/12.045 = \OMS/cmsy/m/n/12.045 Q [] ^^@ Q [] []  [] [] []\O
 ML/cmm/m/it/12.045 p[] [] ds[]
  []
 
 
-Overfull \hbox (1.84486pt too wide) in paragraph at lines 617--619
+Overfull \hbox (1.84486pt too wide) in paragraph at lines 629--631
 []\TU/STSong(0)/m/n/12.045 下 文 将 基 于 期 望 最 大 化 算 法 进 行 证 明，|  首 先 在 期 望 步 骤 方 面
 ：|  对 辅 助 函 数 $\OMS/cmsy/m/n/12.045 Q []$
  []
@@ -1877,7 +1879,7 @@ ipt=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ^^? (U+007F) in font Times New Roman Bold/OT:scr
 ipt=latn;language=dflt;mapping=tex-text;!
 
-Underfull \hbox (badness 7186) in paragraph at lines 813--821
+Underfull \hbox (badness 7186) in paragraph at lines 825--833
 [] \TU/TimesNewRoman(0)/m/n/12.045 9. \TU/STSong(0)/m/n/12.045 计 算 观 测 相 关 矩 阵\
 TU/TimesNewRoman(0)/m/n/12.045 : $\OML/cmm/m/it/12.045 A[] \OT1/cmr/m/n/12.045 
 = [] [][] +
@@ -1906,128 +1908,96 @@ File: figures/content/chapter3/24RobotExpone.pdf Graphic file (type pdf)
  [41]
 File: figures/content/chapter3/multiMeasurementsV2.png Graphic file (type bmp)
 <figures/content/chapter3/multiMeasurementsV2.png>
+ [42]
+File: figures/content/chapter3/AEKF.png Graphic file (type bmp)
+<figures/content/chapter3/AEKF.png>
+ [43]
 File: figures/content/chapter3/uwb_13_formation.png Graphic file (type bmp)
 <figures/content/chapter3/uwb_13_formation.png>
- [42]
 File: figures/content/chapter3/uwb_4_distance.pdf Graphic file (type pdf)
 <use figures/content/chapter3/uwb_4_distance.pdf>
 File: figures/content/chapter3/errorDistribution.png Graphic file (type bmp)
 <figures/content/chapter3/errorDistribution.png>
 
-Underfull \vbox (badness 2735) has occurred while \output is active []
-
- [43])
-(./chapters/chapter4.tex [44]
-第四章
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/02/21 1.10 listings language file
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2024/02/21 1.10 listings language file
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2024/02/21 1.10 listings language file
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/02/21 1.10 listings language file
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2024/02/21 1.10 listings language file
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2024/02/21 1.10 listings language file
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/02/21 1.10 listings language file
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2024/02/21 1.10 listings language file
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2024/02/21 1.10 listings language file
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
-)
-
-Package fontspec Info: Could not resolve font "Ubuntu Mono/BI" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "Ubuntu Mono/B" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "Ubuntu Mono/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Font family 'UbuntuMono(0)' created for font 'Ubuntu
-(fontspec)             Mono' with options [].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Ubuntu
-(fontspec)             Mono/OT:script=latn;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
-File: figures/content/4_1.png Graphic file (type bmp)
-<figures/content/4_1.png>
- [45
-
-]
-[46]
-File: figures/content/4_2.jpg Graphic file (type bmp)
-<figures/content/4_2.jpg>
-File: figures/content/4_3.jpeg Graphic file (type bmp)
-<figures/content/4_3.jpeg>
-
-Underfull \vbox (badness 1845) has occurred while \output is active []
-
- [47]
-File: figures/content/4_4.png Graphic file (type bmp)
-<figures/content/4_4.png>
-File: figures/content/4_5.png Graphic file (type bmp)
-<figures/content/4_5.png>
-
-[48]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
-
-Package natbib Warning: Citation `seugs2015rule' on page 50 undefined on input 
-line 229.
-
-[50]
-
-LaTeX Warning: Reference `alg:4_1' on page 51 undefined on input line 269.
-
-[51]
-Underfull \vbox (badness 2744) has occurred while \output is active []
-
- [52]
-
-LaTeX Warning: Reference `sec:main_body' on page 53 undefined on input line 352
-.
-
-) (./chapters/chapter5.tex [53] [54
+ [44])
+(./chapters/chapter4.tex [45] [46
 
 ]
+第四章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
+File: figures/content/chapter4/crazyflie.jpeg Graphic file (type bmp)
+<figures/content/chapter4/crazyflie.jpeg>
+
+[48]
+File: figures/content/chapter4/IQN.png Graphic file (type bmp)
+<figures/content/chapter4/IQN.png>
+ [49] [50]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+[52] [53] [54]
+Missing character: There is no ． (U+FF0E) in font Times New Roman/OT:script=lat
+n;language=dflt;mapping=tex-text;!
+Missing character: There is no ． (U+FF0E) in font Times New Roman/OT:script=lat
+n;language=dflt;mapping=tex-text;!
+[55]
+File: figures/content/chapter4/obstacles.png Graphic file (type bmp)
+<figures/content/chapter4/obstacles.png>
+ [56]
+File: figures/content/chapter4/uvasimulation.png Graphic file (type bmp)
+<figures/content/chapter4/uvasimulation.png>
+ [57]
+File: figures/content/chapter4/tcv.png Graphic file (type bmp)
+<figures/content/chapter4/tcv.png>
+ [58]
+File: figures/content/chapter4/CUBEAI.jpeg Graphic file (type bmp)
+<figures/content/chapter4/CUBEAI.jpeg>
+ [59]
+Overfull \hbox (2.10043pt too wide) in paragraph at lines 511--514
+\TU/STSong(0)/m/n/12.045 储 器，|  形 成 了 一 套 兼 顾 计 算 性 能、|  存 储 容 量 与 数 据 可 靠 性 的 
+嵌 入 式 系 统。| \TU/TimesNewRoman(0)/m/n/12.045 STM32H743VIH6
+ []
+
+[60]
+File: figures/content/chapter4/adhocDeck.jpeg Graphic file (type bmp)
+<figures/content/chapter4/adhocDeck.jpeg>
+ [61]
+File: figures/content/chapter4/iqn_native.png Graphic file (type bmp)
+<figures/content/chapter4/iqn_native.png>
+File: figures/content/chapter4/compressTheory.png Graphic file (type bmp)
+<figures/content/chapter4/compressTheory.png>
+ [62]
+Overfull \hbox (12.62358pt too wide) in paragraph at lines 562--563
+\TU/STSong(0)/m/n/12.045 基 于 \TU/TimesNewRoman(0)/m/n/12.045 STM32Cube.AI \TU/S
+TSong(0)/m/n/12.045 生 成 的 报 告 可 知，|  模 型 单 次 推 理 的 乘 加 运 算 次 数  |（\TU/TimesNewR
+oman(0)/m/n/12.045 MACC\TU/STSong(0)/m/n/12.045 ）|  为 \TU/TimesNewRoman(0)/m/n/
+12.045 18,033,384
+ []
+
+File: figures/content/chapter4/AIcompression.jpg Graphic file (type bmp)
+<figures/content/chapter4/AIcompression.jpg>
+[63]
+File: figures/content/chapter4/Adhoc与无人机交互.png Graphic file (type bmp)
+<figures/content/chapter4/Adhoc与无人机交互.png>
+ [64]
+File: figures/content/chapter4/导航无人机.png Graphic file (type bmp)
+<figures/content/chapter4/导航无人机.png>
+File: figures/content/chapter4/真机实验图.png Graphic file (type bmp)
+<figures/content/chapter4/真机实验图.png>
+ [65]) (./chapters/chapter5.tex [66]
 第五章
+) (./chapters/chapter6.tex [67
 
-Package natbib Warning: Citation `blum2013learning' on page 55 undefined on inp
-ut line 35.
+] [68
 
-
-Package natbib Warning: Citation `blum2013learning' on page 55 undefined on inp
-ut line 45.
-
-[55]) (./chapters/chapter6.tex [56]
+]
 第六章
-) (./chapters/acknowledgement.tex [57
-
-] [58
+) (./chapters/acknowledgement.tex [69] [70
 
 ]
 
@@ -2035,11 +2005,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.045pt
 (hyperref)                replaced by space on input line 1.
 
-) [59
+) [71
 
-] [60
+] [72
 
-] (./main.bbl [61
+] (./main.bbl [73
 
 ]
 Underfull \hbox (badness 1132) in paragraph at lines 153--159
@@ -2053,11 +2023,11 @@ Underfull \hbox (badness 1092) in paragraph at lines 153--159
 5.4-2020), 2020:1-174.  DOI:
  []
 
-[62] [63] [64] [65] [66]) (./chapters/appendix.tex [67] [68
-
-]
+[74] [75] [76] [77] [78] [79]) (./chapters/appendix.tex [80]
 附录 A
-[69] [70
+[81
+
+] [82
 
 ]
 附录 B
@@ -2080,18 +2050,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-) (./chapters/resume.tex [71] [72
+) (./chapters/resume.tex [83] [84
 
-])
-
-Package natbib Warning: There were undefined citations.
-
-[73
+]) [85
 
 ]
 File: figures/defined/back-cover.png Graphic file (type bmp)
 <figures/defined/back-cover.png>
- [74
+ [86
 
 ] (./main.aux)
  ***********
@@ -2102,19 +2068,16 @@ L3 programming layer <2022/08/05>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 947D489CC00D2E25394D704A8F89614D;7287.
+(rerunfilecheck)             Checksum: DF24C6D7E20B9929A519F3BE9A423687;8326.
  ) 
 Here is how much of TeX's memory you used:
- 36003 strings out of 474773
- 776413 string characters out of 5757724
- 2017839 words of memory out of 5000000
- 57394 multiletter control sequences out of 15000+600000
- 593463 words of font info for 240 fonts, out of 8000000 for 9000
+ 34906 strings out of 474773
+ 762862 string characters out of 5757724
+ 1957839 words of memory out of 5000000
+ 56323 multiletter control sequences out of 15000+600000
+ 593399 words of font info for 232 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 125i,17n,131p,1229b,2159s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,17n,131p,1229b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (97 pages).
+Output written on main.pdf (109 pages).

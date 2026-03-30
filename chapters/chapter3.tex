@@ -11,7 +11,7 @@
 
 尽管现有基于超宽带的集群测距协议能够较为高效地获取无人机之间的距离信息，但这些协议最初并非面向相对定位任务设计，在高密集、高动态集群条件下易受到通信冲突与测距报文不匹配等因素影响导致连续的测距失败，从而极大的制约了定位系统的鲁棒性与可靠性。
 
-针对上述问题，本文首先提出了一种面向相对定位的鲁棒测距协议。
+针对上述问题，本文首先提出了一种面向相对定位的鲁棒集群ß测距协议。
 围绕集群测距中尚未有效解决的核心难题之一，即固定测距周期在高负载条件下易引发持续测距冲突，而随机测距周期又可能导致测距报文不匹配，从而导致无法计算距离。
 本文通过理论分析推导出随机测距周期的最优随机化参数，实现了降低连续测距失败现象与报文不匹配之间的有效权衡。
 在此基础上，进一步提出了一种权衡测距策略，在测距报文不完全匹配的情况下，利用有限的时间戳信息计算额外的有效距离，从而显著提升测距协议的鲁棒性。
@@ -47,6 +47,17 @@
 \end{figure}
 
 每个测距报文包含报文标识信息（包括发送无人机的标号及报文序列号）、该无人机最近一次测距报文的发送时间戳，以及从所有邻居无人机节点收集到的接收时间戳。
+为了支持相对定位，测距报文必须携带发送方无人机的速度、偏航率和高度信息，以便邻居可以利用这些信息进行相对定位估计。
+因此，测距报文的数据字段如图\ref{fig:3_insert}所示。
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=.8\linewidth]{figures/content/chapter3/dataofmessage.png}
+  \caption{测距报文中所包含的相对定位相关的数据}
+  \label{fig:3_insert}
+  \end{figure}
+
+
 根据飞行时间的计算原理\cite{9179124}，完成一次飞行时间估计需要六个时间戳（$T_p$, $R_p$, $T_r$, $R_r$, $T_f$, $R_f$）。
 因此，在该测距协议中，每一个无人机都有一个专用的数据结构，用于存储与其相关的时间戳信息，该数据结构称为测距表。
 假设无人机 $A$ 需要与多个邻居无人机进行测距，记$Y$为其中任意一个邻居无人机。
@@ -119,7 +130,7 @@
 此外，测距报文混乱交换进一步加剧了报文不匹配现象，显著提高了测距失败的发生概率。
 
 上述分析均已通过实验结果得到验证。
-在一组实验中，保持一个无人机静止，另一个无人机以 1 $m/s$ 的速度往返运动，采用原始集群测距协议并将测距周期设置为 $60$ ms。
+在一组实验中，保持一个无人机静止，另一个无人机以 1 m/s 的速度往返运动，采用原始集群测距协议并将测距周期设置为 $60$ ms。
 实验结果如图\ref{fig:3_4} 所示，可以观察到测距过程中周期性地出现连续测距失败的现象，在该实验配置下，每次连续测距失败的持续约 $0.4$ s。
 
 \begin{figure}[htbp]
@@ -366,37 +377,38 @@ $P(w=k)=\frac{1}{W+1}$。
 
 新的测距表结构有效解决了由于时间戳缺失而导致的测距失败问题，其对应的权衡测距方法如算法\ref{alg:trade-off} 所示。
 
-    \begin{algorithm}[H]
-      \caption{Trade-off Ranging Algorithm}
-      \label{alg:trade-off}
-      \begin{algorithmic}[1]
-      
-      \While{true}  \Comment{parallel task: transmission}
-          \State Delay for $P$ time
-          \ForAll{neighbor $Y$}
-              \State $Message \gets Message \cup (T_{A_{k-1}}, R_{Y_k})$
-          \EndFor
-          \State Send $Message$
-      \EndWhile
-      \Statex
-\Statex \rule{\linewidth}{0.4pt}
-\Statex
-      \While{true} \Comment{parallel task: reception}
-          \State Wait until a ranging message is received
-          \State Let $Y$ be the message sender's ID
-          \If{$R_f==\varnothing$ in Message}
-              \State $T_r\gets T_{Y_{k-1}}, R_f\gets \varnothing, R_e\gets R_{Y}$ for table(AY)
-              \State Compute Distance using extended timestamps
-              \State rearrange Table: $R_r\gets R_{e}$ for table(AY)
-          \Else
-              \State $T_r\gets T_{Y_{k-1}}, R_f\gets R_{Y_{k}}, R_e\gets R_{Y}$ for table(AY)
-              \State Compute Distance
-              \State rearrange Table: $T_h\gets T_{Y_{k-1}}, R_h \gets R_{Y_{k-1}}, R_p\gets R_{A_{k}}, T_p\gets T_{A_{k}}, R_r\gets R_{e}$ for table(AY)
-          \EndIf
-      \EndWhile
-      
-      \end{algorithmic}
-      \end{algorithm}
+\begin{algorithm}[H]
+  \caption{权衡测距算法}
+  \label{alg:trade-off}
+  \begin{algorithmic}[1]
+  
+  \While{true}  \Comment{并行任务：发送}
+      \State 延时 $P$ 时间
+      \ForAll{邻居节点 $Y$}
+          \State $Message \gets Message \cup (T_{A_{k-1}}, R_{Y_k})$
+      \EndFor
+      \State 发送测距报文 $Message$
+  \EndWhile
+  \Statex
+  \Statex \rule{\linewidth}{0.4pt}
+  \Statex
+  
+  \While{true} \Comment{并行任务：接收}
+      \State 等待直到接收到测距报文
+      \State 设 $Y$ 为报文发送节点的 ID
+      \If{在收到的报文中$R_f == \varnothing$}
+          \State 对表（AY）：$T_r \gets T_{Y_{k-1}},\; R_f \gets \varnothing,\; R_e \gets R_{Y}$
+          \State 利用额外的时间戳计算距离
+          \State 更新表：$R_r \gets R_e$（表 AY）
+      \Else
+          \State 对表（AY）：$T_r \gets T_{Y_{k-1}},\; R_f \gets R_{Y_k},\; R_e \gets R_{Y}$
+          \State 计算距离
+          \State 更新表：$T_h \gets T_{Y_{k-1}},\; R_h \gets R_{Y_{k-1}},\; R_p \gets R_{A_k},\; T_p \gets T_{A_k},\; R_r \gets R_e$（表 AY）
+      \EndIf
+  \EndWhile
+  
+  \end{algorithmic}
+\end{algorithm}
       
 \subsection{ 最优扰动选择策略}
 
@@ -871,11 +883,11 @@ $\Sigma^{(l+1)}_{ij,k|k-1} = B_k,\quad
 
 \item 超宽带测距模块（UWB3000 Deck）：基于 DWM3000 UWB芯片，用于无人机之间的距离测量，是实现集群相对定位的重要信息来源。
 
-\item 主动标记模块（Active Marker Deck）：由高功率 LED 构成，可设置不同 ID，从而在运动捕捉系统中实现大量刚体目标的唯一识别，避免使用大量反光标记。
+\item 被动反光标记模块（Passive Marker）：由多个反光球组成，通过反射外部红外光源实现目标检测与识别，并由运动捕捉系统获取无人机的高精度位姿信息。
 \end{itemize}
 
 无人机系统采用STM32F4微控制器作为主处理单元，主频 168 MHz，片上内存 192 KB。
-在该处理器上同时运行的核心算法模块包括：集群测距协议、自适应相对定位算法与飞行控制算法
+在该处理器上同时运行的核心算法模块包括：集群测距协议、自适应相对定位算法与飞行控制算法。
 
 所有实验均在 6 m × 6 m 的室内实验场地中进行，如图\ref{fig:3_13}所示。
 为了获得精确的参考数据，实验系统使用 OptiTrack运动捕捉系统实时获取每架无人机的真实位置与偏航角。
@@ -936,8 +948,8 @@ $\Sigma^{(l+1)}_{ij,k|k-1} = B_k,\quad
 \textbf{Input:} $N, P, W, D, I$ \\
 \textbf{Output:} $recv\_packets$ \\
 $packets = generateTxPacket(N, P, W, D)$ \\
-Compute $tx, rx$ by Eq.(\ref{eq:txrxdiff}) and (\ref{eq:rxtxdiff}) \\
-Init $recv\_packets = [\,]$ and $seq = 1$ \\
+计算 $tx, rx$ by Eq.(\ref{eq:txrxdiff}) and (\ref{eq:rxtxdiff}) \\
+初始化 $recv\_packets = [\,]$ and $seq = 1$ \\
 \textbf{for} $pkt$ in $packets$ \textbf{do} \\
 \hspace*{1em} \textbf{if} $pkt.id == I$ \textbf{then} \\
 \hspace*{1em} $tran\_Start = pkt.tx,\; tran\_End = pkt.tx + tx,\; seq++$ \\
@@ -1069,7 +1081,46 @@ Jitter size & 0 & 2 & 4 & 6 & 8 & 10 & 14 & 20 & 30 & 40 \\
 最后，我们在图\ref{fig:3_16}所示的实验平台基础上，采用优化后的抖动参数设置的基础上，并在不同的运动速度和测距周期条件下进行了进一步实验。
 实验结果如图\ref{fig:3_17}表明，在应用鲁棒集群测距协议后，与理论分析结果一致，测距失败在时间上呈现更加分散的分布特性，长时间连续测距失败现象不再出现。
 
-\subsection{ 自适应协同定位算法性能}
+
+\subsection{自适应协同定位算法性能}
+
+为了评估所提出自适应协同定位算法的定位精度与稳定性，本文首先通过仿真实验对算法性能进行验证，并与传统扩展卡尔曼滤波方法进行对比分析。
+实验主要关注在噪声统计特性未知或存在建模误差的情况下，算法对系统状态的估计能力。
+
+在仿真中，系统采样周期设定为$\Delta t=0.1s$，每次实验包含 100 个时间步。为了保证实验结果的统计稳定性，每组实验进行 100 次 蒙特卡洛重复仿真，并对结果取平均值。
+实验中一无人机静止，另一无人机以1 m/s 的速度匀速向前运动，其中过程噪声协方差矩阵$\Omega_{0} = =\operatorname{diag}(0.2^2,0.2^2,0.3^2,0.2^2,0.2^2, 0.3^2)$, 
+量测噪声为高斯白噪声，其协方差设定为 $\Lambda_{0} = 0.1^2$​。
+初始协方差矩阵设定为 $\Sigma_{ij,0} = =\operatorname{diag}(5,5,0.1)$
+
+为了评估所提出算法的性能，本文选取以下两种方法进行对比：第一种传统扩展卡尔曼滤波
+采用标准扩展卡尔曼滤波进行状态估计，量测噪声协方差在整个滤波过程中保持固定。
+第二种为本文提出的自适应扩展卡尔曼滤波，在每个时刻通过迭代更新状态估计、协方差矩阵以及量测噪声协方差，实现对系统不确定性的自适应估计。
+为了研究迭代次数对算法性能的影响，本文分别设置迭代次数 $N=1,2,3,4,5$。
+
+本文采用位置均方根误差（Root Mean Square Error，RMSE）作为算法性能评价指标：
+\begin{equation}
+R M S E=\sqrt{\frac{1}{T} \sum_{k=1}^{T}\left\|\hat{p}_{k}-p_{k}\right\|^{2}}
+\end{equation}
+其中：$p_{k}$  为真实位置,$\hat{p}_{k}$  为估计位置, $T$  为仿真步数.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=.7\linewidth]{figures/content/chapter3/AEKF.png}
+  \caption{自适应EKF与传统EKF定位误差对比图}
+  \label{fig:3_19}
+\end{figure}
+
+从实验结果图\ref{fig:3_19}中可以看出，不同迭代次数下算法的定位误差均方根变化情况，并与传统扩展卡尔曼滤波的定位误差进行了对比。
+图中横轴表示迭代次数 N，纵轴表示位置估计误差的均方根值，虚线表示传统 EKF 算法的定位误差水平。
+
+当迭代次数 N = 1 时，算法的 RMSE 约为 3.2 m，此时误差较大，说明在未进行充分迭代优化的情况下，状态估计精度仍然较低。
+随着迭代次数增加，定位误差明显下降。当 N = 2 时，RMSE 降至约 1.62 m，相较于传统 EKF 的约 2.45 m，定位精度得到明显提升。
+当迭代次数继续增加时，RMSE 的变化逐渐趋于稳定。
+结果表明，当迭代次数达到 4 次左右时，算法的估计精度已经基本收敛，继续增加迭代次数对精度提升的作用较为有限。
+
+与传统 EKF 算法相比，所提出的迭代算法在 N ≥ 2 时均表现出更低的定位误差，RMSE 从 EKF 的约 2.45 m 降低到约 1.55 m，误差降低约 36\%。
+
+综上所述，仿真结果验证了所提出算法在定位精度方面相较于传统 EKF 具有明显优势，并且在迭代次数达到一定程度后能够快速收敛，在保证定位精度的同时兼顾计算效率。
 \subsection{  大型集群编队飞行实验}
 
 本小节展示了一项真实飞行实验，用于验证领导-跟随编队控制的效果。

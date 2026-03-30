@@ -9,51 +9,49 @@ Repeated entry---line 280 of file reference.bib
  : @article{nguyen2023relative
  :                            ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "seugs2015rule"
-Warning--I didn't find a database entry for "blum2013learning"
 Warning--empty year in lucahigh
 Warning--empty year in lucahigh
 Warning--empty year in lucahigh
 Warning--empty author in 9179124
-You've used 73 entries,
+You've used 86 entries,
             4073 wiz_defined-function locations,
-            1255 strings with 21832 characters,
-and the built_in function-call counts, 526485 in all, are:
-= -- 8874
-> -- 63333
-< -- 77792
-+ -- 20998
-- -- 4415
-* -- 3051
-:= -- 72394
-add.period$ -- 233
-call.type$ -- 73
-change.case$ -- 348
-chr.to.int$ -- 19262
-cite$ -- 78
-duplicate$ -- 1524
-empty$ -- 3921
-format.name$ -- 1436
-if$ -- 135821
+            1317 strings with 24249 characters,
+and the built_in function-call counts, 615383 in all, are:
+= -- 10411
+> -- 74014
+< -- 90881
++ -- 24530
+- -- 5200
+* -- 3526
+:= -- 84583
+add.period$ -- 275
+call.type$ -- 86
+change.case$ -- 408
+chr.to.int$ -- 22499
+cite$ -- 91
+duplicate$ -- 1793
+empty$ -- 4595
+format.name$ -- 1667
+if$ -- 158793
 int.to.chr$ -- 4
-int.to.str$ -- 74
+int.to.str$ -- 87
 missing$ -- 0
-newline$ -- 388
-num.names$ -- 216
-pop$ -- 28159
+newline$ -- 456
+num.names$ -- 255
+pop$ -- 33089
 preamble$ -- 1
-purify$ -- 73
+purify$ -- 86
 quote$ -- 0
-skip$ -- 54750
+skip$ -- 63849
 stack$ -- 0
-substring$ -- 25145
-swap$ -- 257
-text.length$ -- 833
+substring$ -- 29390
+swap$ -- 298
+text.length$ -- 971
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 909
+type$ -- 1066
 warning$ -- 4
-while$ -- 1083
+while$ -- 1262
 width$ -- 0
-write$ -- 1036
+write$ -- 1213
 (There was 1 error message)
