@@ -56,18 +56,18 @@
 \contentsline {chapter}{\numberline {第五章\hspace {.3em}}微型无人机集群测距与自主导航原型系统}{67}{chapter.5}%
 \contentsline {section}{\numberline {5.1} 引言}{67}{section.5.1}%
 \contentsline {section}{\numberline {5.2}系统硬件组成}{67}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}无人机平台}{67}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}监控平台}{67}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5.3}系统软件模块}{67}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}自主导航模块}{67}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}协作通信模块}{67}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}飞行控制模块}{67}{subsection.5.3.3}%
-\contentsline {section}{\numberline {5.4}系统部署与运行方案}{67}{section.5.4}%
-\contentsline {section}{\numberline {5.5} 系统测试与运行结果}{67}{section.5.5}%
-\contentsline {section}{\numberline {5.6}本章小结}{67}{section.5.6}%
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结与展望}{69}{chapter.6}%
-\contentsline {chapter}{致 ~~~\hskip 1em\relax 谢}{71}{section*.62}%
-\contentsline {chapter}{参考文献}{73}{section*.64}%
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}欧几里得第二定理的证明}{81}{appendix.A}%
-\contentsline {chapter}{\numberline {附录 B\hspace {.3em}}$\sqrt {2}$是无理数的证明}{83}{appendix.B}%
-\contentsline {chapter}{作者简介}{85}{section*.66}%
+\contentsline {subsection}{\numberline {5.2.1}无人机平台}{68}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}外部监控平台}{69}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}系统软件模块}{71}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}跟随与避障模块}{73}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}通信模块}{73}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}飞行控制模块}{75}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}系统部署与运行方案}{76}{section.5.4}%
+\contentsline {section}{\numberline {5.5} 系统测试与运行结果}{77}{section.5.5}%
+\contentsline {section}{\numberline {5.6}本章小结}{77}{section.5.6}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结与展望}{79}{chapter.6}%
+\contentsline {chapter}{致 ~~~\hskip 1em\relax 谢}{81}{section*.72}%
+\contentsline {chapter}{参考文献}{83}{section*.74}%
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}欧几里得第二定理的证明}{91}{appendix.A}%
+\contentsline {chapter}{\numberline {附录 B\hspace {.3em}}$\sqrt {2}$是无理数的证明}{93}{appendix.B}%
+\contentsline {chapter}{作者简介}{95}{section*.76}%

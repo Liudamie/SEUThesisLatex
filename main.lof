@@ -53,6 +53,25 @@
 \contentsline {figure}{\numberline {4{}-12}{\ignorespaces 部署模型所用到的无人机及其扩展版}}{65}{figure.caption.60}%
 \contentsline {figure}{\numberline {4{}-13}{\ignorespaces 无人机真实实验图}}{66}{figure.caption.61}%
 \addvspace {10.0pt}
+\contentsline {figure}{\numberline {5{}-1}{\ignorespaces 原型系统硬件架构}}{68}{figure.caption.62}%
+\contentsline {figure}{\numberline {5{}-2}{\ignorespaces 领导者无人机硬件模块组成}}{68}{figure.caption.63}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Adhoc Deck}}}{68}{subfigure.2.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Flow Deck}}}{68}{subfigure.2.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Multi-ranger Deck}}}{68}{subfigure.2.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Motion Capture Marker Deck}}}{68}{subfigure.2.4}%
+\contentsline {figure}{\numberline {5{}-3}{\ignorespaces 跟随者无人机硬件模块组成}}{69}{figure.caption.64}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {UWB Deck}}}{69}{subfigure.3.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Flow Deck}}}{69}{subfigure.3.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Multi-ranger Deck}}}{69}{subfigure.3.3}%
+\contentsline {figure}{\numberline {5{}-4}{\ignorespaces 无人机集群自主导航系统}}{70}{figure.caption.65}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {领导者无人机}}}{70}{subfigure.4.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {跟随者无人机}}}{70}{subfigure.4.2}%
+\contentsline {figure}{\numberline {5{}-5}{\ignorespaces vicon 监控平台}}{70}{figure.caption.66}%
+\contentsline {figure}{\numberline {5{}-6}{\ignorespaces 系统软件架构}}{72}{figure.caption.67}%
+\contentsline {figure}{\numberline {5{}-7}{\ignorespaces 无人机飞行控制的Commander模块}}{76}{figure.caption.68}%
+\contentsline {figure}{\numberline {5{}-8}{\ignorespaces 无人机的编译与烧录}}{77}{figure.caption.69}%
+\contentsline {figure}{\numberline {5{}-9}{\ignorespaces Adhoc Deck的编译与烧录}}{77}{figure.caption.70}%
+\contentsline {figure}{\numberline {5{}-10}{\ignorespaces Adhoc Deck运行调试中的SWV输出}}{78}{figure.caption.71}%
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}

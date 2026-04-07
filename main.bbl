@@ -1,4 +1,4 @@
-\begin{thebibliography}{86}
+\begin{thebibliography}{87}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -599,5 +599,10 @@ REYAD~M, SARHAN~A~M, ARAFA~M.
   optimization\allowbreak[J].
 \newblock Neural Computing and Applications, 2023, 35\penalty0 (23):\penalty0
   17095-17112.
+
+\bibitem[Knospe(2006)]{knospe2006pid}
+KNOSPE~C.
+\newblock Pid control\allowbreak[J].
+\newblock IEEE Control Systems Magazine, 2006, 26\penalty0 (1):\penalty0 30-31.
 
 \end{thebibliography}
