@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.29)  7 APR 2026 12:21
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.29)  13 APR 2026 18:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1700,7 +1700,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
  [7] [8
 
 ] (./main.lof
-Underfull \vbox (badness 1661) has occurred while \output is active []
+Underfull \vbox (badness 6725) has occurred while \output is active []
 
  [9
 
@@ -1916,6 +1916,15 @@ File: figures/content/chapter3/multiMeasurementsV2.png Graphic file (type bmp)
 File: figures/content/chapter3/AEKF.png Graphic file (type bmp)
 <figures/content/chapter3/AEKF.png>
  [43]
+File: figures/content/chapter3/EKFError.png Graphic file (type bmp)
+<figures/content/chapter3/EKFError.png>
+ [44]
+File: figures/content/chapter3/AEKFError.png Graphic file (type bmp)
+<figures/content/chapter3/AEKFError.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45]
 File: figures/content/chapter3/uwb_13_formation.png Graphic file (type bmp)
 <figures/content/chapter3/uwb_13_formation.png>
 File: figures/content/chapter3/uwb_4_distance.pdf Graphic file (type pdf)
@@ -1923,60 +1932,59 @@ File: figures/content/chapter3/uwb_4_distance.pdf Graphic file (type pdf)
 File: figures/content/chapter3/errorDistribution.png Graphic file (type bmp)
 <figures/content/chapter3/errorDistribution.png>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44])
-(./chapters/chapter4.tex [45] [46
+[46]) (./chapters/chapter4.tex [47] [48
 
 ]
 第四章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47]
+ [49]
 File: figures/content/chapter4/crazyflie.jpeg Graphic file (type bmp)
 <figures/content/chapter4/crazyflie.jpeg>
 
-[48]
+[50]
 File: figures/content/chapter4/IQN.png Graphic file (type bmp)
 <figures/content/chapter4/IQN.png>
- [49] [50]
+ [51] [52]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51]
-[52] [53] [54]
+ [53]
+[54] [55] [56]
 Missing character: There is no ． (U+FF0E) in font Times New Roman/OT:script=lat
 n;language=dflt;mapping=tex-text;!
 Missing character: There is no ． (U+FF0E) in font Times New Roman/OT:script=lat
 n;language=dflt;mapping=tex-text;!
-[55]
+[57]
 File: figures/content/chapter4/obstacles.png Graphic file (type bmp)
 <figures/content/chapter4/obstacles.png>
- [56]
+ [58]
 File: figures/content/chapter4/uvasimulation.png Graphic file (type bmp)
 <figures/content/chapter4/uvasimulation.png>
- [57]
+ [59]
 File: figures/content/chapter4/tcv.png Graphic file (type bmp)
 <figures/content/chapter4/tcv.png>
- [58]
+ [60]
 File: figures/content/chapter4/CUBEAI.jpeg Graphic file (type bmp)
 <figures/content/chapter4/CUBEAI.jpeg>
- [59]
+ [61]
 Overfull \hbox (2.10043pt too wide) in paragraph at lines 509--512
 \TU/STSong(0)/m/n/12.045 储 器，|  形 成 了 一 套 兼 顾 计 算 性 能、|  存 储 容 量 与 数 据 可 靠 性 的 
 嵌 入 式 系 统。| \TU/TimesNewRoman(0)/m/n/12.045 STM32H743VIH6
  []
 
-[60]
-File: figures/content/chapter4/adhocDeck.jpeg Graphic file (type bmp)
-<figures/content/chapter4/adhocDeck.jpeg>
- [61]
+[62]
+File: figures/content/chapter4/Adhoc正面.png Graphic file (type bmp)
+<figures/content/chapter4/Adhoc正面.png>
+File: figures/content/chapter4/Adhoc反面.png Graphic file (type bmp)
+<figures/content/chapter4/Adhoc反面.png>
+ [63]
 File: figures/content/chapter4/iqn_native.png Graphic file (type bmp)
 <figures/content/chapter4/iqn_native.png>
 File: figures/content/chapter4/compressTheory.png Graphic file (type bmp)
 <figures/content/chapter4/compressTheory.png>
- [62]
-Overfull \hbox (12.62358pt too wide) in paragraph at lines 560--561
+ [64]
+Overfull \hbox (12.62358pt too wide) in paragraph at lines 562--563
 \TU/STSong(0)/m/n/12.045 基 于 \TU/TimesNewRoman(0)/m/n/12.045 STM32Cube.AI \TU/S
 TSong(0)/m/n/12.045 生 成 的 报 告 可 知，|  模 型 单 次 推 理 的 乘 加 运 算 次 数  |（\TU/TimesNewR
 oman(0)/m/n/12.045 MACC\TU/STSong(0)/m/n/12.045 ）|  为 \TU/TimesNewRoman(0)/m/n/
@@ -1985,21 +1993,34 @@ oman(0)/m/n/12.045 MACC\TU/STSong(0)/m/n/12.045 ）|  为 \TU/TimesNewRoman(0)/m
 
 File: figures/content/chapter4/AIcompression.jpg Graphic file (type bmp)
 <figures/content/chapter4/AIcompression.jpg>
-[63]
+[65]
 File: figures/content/chapter4/Adhoc与无人机交互.png Graphic file (type bmp)
 <figures/content/chapter4/Adhoc与无人机交互.png>
- [64]
+
+Underfull \vbox (badness 3428) has occurred while \output is active []
+
+ [66]
 File: figures/content/chapter4/导航无人机.png Graphic file (type bmp)
 <figures/content/chapter4/导航无人机.png>
-File: figures/content/chapter4/真机实验图.png Graphic file (type bmp)
-<figures/content/chapter4/真机实验图.png>
- [65]) (./chapters/chapter5.tex [66]
+File: figures/content/chapter4/真机实验图1.png Graphic file (type bmp)
+<figures/content/chapter4/真机实验图1.png>
+File: figures/content/chapter4/真机实验图2.png Graphic file (type bmp)
+<figures/content/chapter4/真机实验图2.png>
+File: figures/content/chapter4/真机实验图3.png Graphic file (type bmp)
+<figures/content/chapter4/真机实验图3.png>
+File: figures/content/chapter4/真机实验图4.png Graphic file (type bmp)
+<figures/content/chapter4/真机实验图4.png>
+
+
+LaTeX Warning: Float too large for page by 10.34563pt on input line 624.
+
+[67] [68]) (./chapters/chapter5.tex [69] [70
+
+]
 第五章
 File: figures/content/chapter5/硬件架构.png Graphic file (type bmp)
 <figures/content/chapter5/硬件架构.png>
-[67
-
-]
+[71]
 File: figures/content/chapter5/FlowDeck.png Graphic file (type bmp)
 <figures/content/chapter5/FlowDeck.png>
 File: figures/content/chapter5/FlowDeck.png Graphic file (type bmp)
@@ -2008,7 +2029,7 @@ File: figures/content/chapter5/MultirangDeck.png Graphic file (type bmp)
 <figures/content/chapter5/MultirangDeck.png>
 File: figures/content/chapter5/viconDeck.png Graphic file (type bmp)
 <figures/content/chapter5/viconDeck.png>
- [68]
+ [72]
 File: figures/content/chapter5/UWBDeck.png Graphic file (type bmp)
 <figures/content/chapter5/UWBDeck.png>
 File: figures/content/chapter5/FlowDeck.png Graphic file (type bmp)
@@ -2021,10 +2042,10 @@ File: figures/content/chapter5/领导者图片.png Graphic file (type bmp)
 <figures/content/chapter5/领导者图片.png>
 File: figures/content/chapter5/vicon平台.png Graphic file (type bmp)
 <figures/content/chapter5/vicon平台.png>
- [69] [70] [71]
+ [73] [74] [75]
 File: figures/content/chapter5/软件架构.png Graphic file (type bmp)
 <figures/content/chapter5/软件架构.png>
- [72] [73]
+ [76] [77]
 
 Package fontspec Warning: Font "STFangsong" does not contain requested Script
 (fontspec)                "CJK".
@@ -2081,22 +2102,22 @@ Package fontspec Info: Font family 'UbuntuMono(0)' created for font 'Ubuntu
 (fontspec)             Mono/OT:script=latn;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- [74]
+ [78]
 File: figures/content/chapter5/无人机飞控.png Graphic file (type bmp)
 <figures/content/chapter5/无人机飞控.png>
 
-[75] [76]
+[79] [80]
 File: figures/content/chapter5/无人机编译烧录.jpg Graphic file (type bmp)
 <figures/content/chapter5/无人机编译烧录.jpg>
 File: figures/content/chapter5/stmH7烧录.jpg Graphic file (type bmp)
 <figures/content/chapter5/stmH7烧录.jpg>
 File: figures/content/chapter5/stmH7烧录.jpg Graphic file (type bmp)
 <figures/content/chapter5/stmH7烧录.jpg>
- [77]) (./chapters/chapter6.tex [78]
+ [81]) (./chapters/chapter6.tex [82]
 第六章
-) (./chapters/acknowledgement.tex [79
+) (./chapters/acknowledgement.tex [83
 
-] [80
+] [84
 
 ]
 
@@ -2104,11 +2125,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.045pt
 (hyperref)                replaced by space on input line 1.
 
-) [81
+) [85
 
-] [82
+] [86
 
-] (./main.bbl [83
+] (./main.bbl [87
 
 ]
 Underfull \hbox (badness 1132) in paragraph at lines 153--159
@@ -2122,11 +2143,11 @@ Underfull \hbox (badness 1092) in paragraph at lines 153--159
 5.4-2020), 2020:1-174.  DOI:
  []
 
-[84] [85] [86] [87] [88] [89]) (./chapters/appendix.tex [90]
+[88] [89] [90] [91] [92] [93]) (./chapters/appendix.tex [94]
 附录 A
-[91
+[95
 
-] [92
+] [96
 
 ]
 附录 B
@@ -2149,14 +2170,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-) (./chapters/resume.tex [93] [94
+) (./chapters/resume.tex [97] [98
 
-]) [95
+]) [99
 
 ]
 File: figures/defined/back-cover.png Graphic file (type bmp)
 <figures/defined/back-cover.png>
- [96
+ [100
 
 ] (./main.aux)
  ***********
@@ -2171,15 +2192,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2BFE08AEF560BFA63790BEAE4D4CA942;8334.
+(rerunfilecheck)             Checksum: 59B57376EBDD6617072AD612D6A18A54;8334.
  ) 
 Here is how much of TeX's memory you used:
- 35210 strings out of 474773
- 770917 string characters out of 5757724
+ 35267 strings out of 474773
+ 773026 string characters out of 5757724
  1964839 words of memory out of 5000000
- 56586 multiletter control sequences out of 15000+600000
+ 56637 multiletter control sequences out of 15000+600000
  593503 words of font info for 245 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  125i,17n,131p,1229b,1942s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (119 pages).
+Output written on main.pdf (123 pages).

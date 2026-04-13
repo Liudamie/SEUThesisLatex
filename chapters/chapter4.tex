@@ -520,11 +520,13 @@ STM32H743VIH6 基于ARM Cortex-M7内核，主频最高可达480 MHz，具备较�
 综上，Adhoc Deck 扩展板通过片上 Flash、外部 Flash 与 FRAM 的协同设计，在存储容量、访问效率及数据可靠性之间实现了有效平衡。其中，片上 Flash 保障系统运行与升级过程的安全性，外部 Flash 提供大容量数据支持，而 FRAM 则满足高频写入与关键数据保护需求。该多层次存储架构为后续算法的稳定运行与数据处理提供了坚实的硬件基础。
 
 \begin{figure}[htbp]
-  \centering
-  \includegraphics[width=.6\linewidth]{figures/content/chapter4/adhocDeck.jpeg}
-  \caption{ Adhoc Deck 扩展版}
-  \label{fig:4_7}
-\end{figure}
+    \centering
+    \subfloat[正面]{\includegraphics[width=.4\textwidth]{figures/content/chapter4/Adhoc正面.png}}
+    \quad
+    \subfloat[反面]{\includegraphics[width=.4\textwidth]{figures/content/chapter4/Adhoc反面.png}}
+    \caption{Adhoc Deck}
+    \label{fig:4_7}
+    \end{figure}
 
 \subsection{网络模型的量化与部署}
 
@@ -605,13 +607,26 @@ STM32H743VIH6 基于ARM Cortex-M7内核，主频最高可达480 MHz，具备较�
   \item 被动反光标记模块（Motion Capture Marker Deck）：由多个反光球组成，通过反射外部红外光源实现目标检测与识别，并由运动捕捉系统获取无人机的高精度位姿信息。
   
   \end{itemize}
-无人机真机导航任务在4.8×4.8米复杂环境中实施。如图\ref{fig:4_13}所示，在泡沫板场地中，我们在不同位置放置了形状大小各异的立方体作为我障碍物，并保证至少有一个障碍物在起点和终点的连线上，避免简单的直线飞行。
+
+  无人机真机导航任务在4.8×4.8米复杂环境中实施。如图\ref{fig:4_13}所示，在泡沫板场地中，我们在不同位置放置了形状大小各异的立方体作为我障碍物，并保证至少有一个障碍物在起点和终点的连线上，避免简单的直线飞行。
+
 \begin{figure}[htbp]
-  \centering
-  \includegraphics[width=.6\linewidth]{figures/content/chapter4/真机实验图.png}
-  \caption{无人机真实实验图}
-  \label{fig:4_13}
-\end{figure}
+    \centering
+    \subfloat[时刻1实拍图]{\includegraphics[width=.55\textwidth]{figures/content/chapter4/真机实验图1.png}}
+    \quad
+    \subfloat[时刻2实拍图]{\includegraphics[width=.55\textwidth]{figures/content/chapter4/真机实验图2.png}}
+    \quad
+    \subfloat[时刻3实拍图]{\includegraphics[width=.55\textwidth]{figures/content/chapter4/真机实验图3.png}}
+    \quad
+    \subfloat[时刻4实拍图]{\includegraphics[width=.55\textwidth]{figures/content/chapter4/真机实验图4.png}}
+    \caption{无人机自主导航实验图}
+    \label{fig:4_13}
+    \end{figure}
+
+实验过程中，无人机需在未知环境中完成从起点到目标点的自主导航任务。
+图\ref{fig:4_13}展示了实验过程中四个典型时刻的实拍图像，分别对应时刻1、时刻2、时刻3及时刻4。
+在时刻2（图\ref{fig:4_13}(b)），无人机飞行至环境中第一个关键转折区域。面对局部障碍物或通道变化，导航系统实时更新路径规划策略，成功引导无人机调整航向，避免与周围环境发生碰撞。
+最后，在时刻4（图\ref{fig:4_13}(d)），无人机成功抵达目标区域附近。此时，无人机已顺利完成导航任务，飞行轨迹收敛至目标点，整体导航过程平稳可靠。实验结果表明，本文方法能够在实际飞行条件下实现稳定、有效的自主导航。
 \section{本章小结}
 
 本章围绕无人机在复杂未知环境中的自主导航问题，系统地开展了从算法设计、模型训练到嵌入式部署与真机验证的完整研究工作。

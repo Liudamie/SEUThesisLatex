@@ -34,40 +34,40 @@
 \contentsline {subsection}{\numberline {3.4.2} 大规模集群测距的仿真鲁棒性分析}{38}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}真实世界中的鲁棒集群测距协议性能}{40}{subsection.3.4.3}%
 \contentsline {subsection}{\numberline {3.4.4}自适应协同定位算法性能}{42}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5} 大型集群编队飞行实验}{44}{subsection.3.4.5}%
-\contentsline {section}{\numberline {3.5}本章小节}{45}{section.3.5}%
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}无人机自主导航飞行}{47}{chapter.4}%
-\contentsline {section}{\numberline {4.1}引言}{47}{section.4.1}%
-\contentsline {section}{\numberline {4.2}基于分布式强化学习的导航模型构建与训练}{48}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}问题定义与奖励函数设计}{48}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}自适应风险倾向隐式分位数网络}{49}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}算法实现}{52}{subsection.4.2.3}%
-\contentsline {subsubsection}{双网络结构}{52}{subsubsection*.44}%
-\contentsline {subsubsection}{构建智能体的动作空间}{53}{subsubsection*.45}%
-\contentsline {subsubsection}{模型训练算法}{53}{subsubsection*.46}%
-\contentsline {subsubsection}{动作选择策略}{54}{subsubsection*.47}%
-\contentsline {subsubsection}{分位数网络IQN}{55}{subsubsection*.48}%
-\contentsline {subsection}{\numberline {4.2.4}模型训练与模拟实验结果分析}{55}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}基于分布式强化学习的导航模型部署}{59}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}部署工具与部署平台}{59}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}网络模型的量化与部署}{61}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3} 真机实验结果分析}{65}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}本章小结}{66}{section.4.4}%
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}微型无人机集群测距与自主导航原型系统}{67}{chapter.5}%
-\contentsline {section}{\numberline {5.1} 引言}{67}{section.5.1}%
-\contentsline {section}{\numberline {5.2}系统硬件组成}{67}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}无人机平台}{68}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}外部监控平台}{69}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5.3}系统软件模块}{71}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}跟随与避障模块}{73}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}通信模块}{73}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}飞行控制模块}{75}{subsection.5.3.3}%
-\contentsline {section}{\numberline {5.4}系统部署与运行方案}{76}{section.5.4}%
-\contentsline {section}{\numberline {5.5} 系统测试与运行结果}{77}{section.5.5}%
-\contentsline {section}{\numberline {5.6}本章小结}{77}{section.5.6}%
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结与展望}{79}{chapter.6}%
-\contentsline {chapter}{致 ~~~\hskip 1em\relax 谢}{81}{section*.72}%
-\contentsline {chapter}{参考文献}{83}{section*.74}%
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}欧几里得第二定理的证明}{91}{appendix.A}%
-\contentsline {chapter}{\numberline {附录 B\hspace {.3em}}$\sqrt {2}$是无理数的证明}{93}{appendix.B}%
-\contentsline {chapter}{作者简介}{95}{section*.76}%
+\contentsline {subsection}{\numberline {3.4.5} 大型集群编队飞行实验}{46}{subsection.3.4.5}%
+\contentsline {section}{\numberline {3.5}本章小节}{46}{section.3.5}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}无人机自主导航飞行}{49}{chapter.4}%
+\contentsline {section}{\numberline {4.1}引言}{49}{section.4.1}%
+\contentsline {section}{\numberline {4.2}基于分布式强化学习的导航模型构建与训练}{50}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}问题定义与奖励函数设计}{50}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}自适应风险倾向隐式分位数网络}{51}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}算法实现}{54}{subsection.4.2.3}%
+\contentsline {subsubsection}{双网络结构}{54}{subsubsection*.47}%
+\contentsline {subsubsection}{构建智能体的动作空间}{55}{subsubsection*.48}%
+\contentsline {subsubsection}{模型训练算法}{55}{subsubsection*.49}%
+\contentsline {subsubsection}{动作选择策略}{56}{subsubsection*.50}%
+\contentsline {subsubsection}{分位数网络IQN}{57}{subsubsection*.51}%
+\contentsline {subsection}{\numberline {4.2.4}模型训练与模拟实验结果分析}{57}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}基于分布式强化学习的导航模型部署}{61}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}部署工具与部署平台}{61}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}网络模型的量化与部署}{63}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3} 真机实验结果分析}{67}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}本章小结}{69}{section.4.4}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}微型无人机集群测距与自主导航原型系统}{71}{chapter.5}%
+\contentsline {section}{\numberline {5.1} 引言}{71}{section.5.1}%
+\contentsline {section}{\numberline {5.2}系统硬件组成}{71}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}无人机平台}{72}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}外部监控平台}{73}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}系统软件模块}{75}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}跟随与避障模块}{77}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}通信模块}{77}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}飞行控制模块}{79}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}系统部署与运行方案}{80}{section.5.4}%
+\contentsline {section}{\numberline {5.5} 系统测试与运行结果}{81}{section.5.5}%
+\contentsline {section}{\numberline {5.6}本章小结}{81}{section.5.6}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结与展望}{83}{chapter.6}%
+\contentsline {chapter}{致 ~~~\hskip 1em\relax 谢}{85}{section*.75}%
+\contentsline {chapter}{参考文献}{87}{section*.77}%
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}欧几里得第二定理的证明}{95}{appendix.A}%
+\contentsline {chapter}{\numberline {附录 B\hspace {.3em}}$\sqrt {2}$是无理数的证明}{97}{appendix.B}%
+\contentsline {chapter}{作者简介}{99}{section*.79}%
