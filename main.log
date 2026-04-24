@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.29)  13 APR 2026 18:49
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.29)  24 APR 2026 18:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1300,39 +1300,39 @@ Package hyperref Info: Link coloring OFF on input line 8.
 
 File: figures/defined/front-cover.jpg Graphic file (type bmp)
 <figures/defined/front-cover.jpg>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 71.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 70.
 
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 71.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 70.
 
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) detected at line 71
+Underfull \hbox (badness 10000) detected at line 70
 \TU/STSong(0)/m/n/9.03374 学 校 代 码
  []
 
 
-Underfull \hbox (badness 10000) detected at line 71
+Underfull \hbox (badness 10000) detected at line 70
 \TU/STSong(0)/m/n/9.03374 分 类 号
  []
 
 
-Underfull \hbox (badness 10000) detected at line 71
+Underfull \hbox (badness 10000) detected at line 70
 \TU/STSong(0)/m/n/9.03374 密 级
  []
 
 
-Underfull \hbox (badness 10000) detected at line 71
+Underfull \hbox (badness 10000) detected at line 70
 \TU/TimesNewRoman(0)/m/n/9.03374 U D C
  []
 
 
-Underfull \hbox (badness 10000) detected at line 71
+Underfull \hbox (badness 10000) detected at line 70
 \TU/STSong(0)/m/n/9.03374 学 号
  []
 
@@ -1370,37 +1370,22 @@ Package fontspec Info: Font family 'STHeiti(0)' created for font 'STHeiti'
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
-\TU/STHeiti(0)/m/n/12.045 学
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
-
- []
-
-
-Overfull \hbox (623.60535pt too wide) in paragraph at lines 71--71
+Overfull \hbox (623.60535pt too wide) in paragraph at lines 70--70
 []|  $[]$ 
  []
 
 
-Overfull \hbox (623.60535pt too wide) in paragraph at lines 71--71
+Overfull \hbox (623.60535pt too wide) in paragraph at lines 70--70
 []|  $[]$ 
  []
 
@@ -1432,13 +1417,100 @@ Package fontspec Info: Font family 'STSong(1)' created for font 'STSong' with
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
+Overfull \hbox (1.04222pt too wide) detected at line 70
+\TU/STSong(1)/m/n/18.06749 研 究 生 姓 名\TU/TimesNewRoman(0)/m/n/18.06749 : 
+ []
+
+
+Overfull \hbox (11.71297pt too wide) detected at line 70
+ |  [] []
+ []
+
+
+Overfull \hbox (1.0423pt too wide) detected at line 70
+\TU/STSong(1)/m/n/18.06749 导  师  姓  名\TU/TimesNewRoman(0)/m/n/18.06749 : 
+ []
+
+
+Overfull \hbox (11.71297pt too wide) detected at line 70
+ |  [] []
+ []
+
+
+Overfull \hbox (11.71297pt too wide) detected at line 70
+ |  [] []
+ []
+
+
+Overfull \hbox (623.60535pt too wide) in paragraph at lines 70--70
+[]|  $[]$ 
+ []
+
+
+Overfull \hbox (13.18312pt too wide) detected at line 70
+ \TU/STSong(1)/m/n/12.045 申 请 学 位 类 别 $[]$ 
+ []
+
+
+Overfull \hbox (13.18312pt too wide) detected at line 70
+ \TU/STSong(1)/m/n/12.045 学 位 授 予 单 位 $[]$ 
+ []
+
+
+Overfull \hbox (13.18312pt too wide) detected at line 70
+ \TU/STSong(1)/m/n/12.045 工 程 领 域 名 称 $[]$ 
+ []
+
+
+Overfull \hbox (13.18312pt too wide) detected at line 70
+ \TU/STSong(1)/m/n/12.045 论 文 答 辩 日 期 $[]$ 
+ []
+
+
+Overfull \hbox (13.18321pt too wide) detected at line 70
+ \TU/STSong(1)/m/n/12.045 研    究    方    向 $[]$ 
+ []
+
+
+Overfull \hbox (13.18312pt too wide) detected at line 70
+ \TU/STSong(1)/m/n/12.045 学 位 授 予 日 期 $[]$ 
+ []
+
+
+Overfull \hbox (12.42445pt too wide) detected at line 70
+ \TU/STSong(1)/m/n/12.045 答 辩 委 员 会 主 席 $[]$ 
+ []
+
+
+Overfull \hbox (13.18326pt too wide) detected at line 70
+ \TU/STSong(1)/m/n/12.045 评         阅         人 $[]$ 
+ []
+
+
+Overfull \hbox (13.46774pt too wide) detected at line 70
+ [] $[]$ 
+ []
+
+
+Overfull \hbox (623.60535pt too wide) in paragraph at lines 70--70
+[]|  $[]$ 
+ []
+
+
+Overfull \hbox (609.379pt too wide) in paragraph at lines 70--70
+[]|  [] 
+ []
+
+[1
+
+]
 Overfull \hbox (1.04222pt too wide) detected at line 71
 \TU/STSong(1)/m/n/18.06749 研 究 生 姓 名\TU/TimesNewRoman(0)/m/n/18.06749 : 
  []
 
 
-Overfull \hbox (11.71297pt too wide) detected at line 71
- |  [] []
+Overfull \hbox (13.72047pt too wide) detected at line 71
+ |  [] [] 
  []
 
 
@@ -1447,18 +1519,13 @@ Overfull \hbox (1.0423pt too wide) detected at line 71
  []
 
 
-Overfull \hbox (11.71297pt too wide) detected at line 71
- |  [] []
+Overfull \hbox (13.72047pt too wide) detected at line 71
+ |  [] [] 
  []
 
 
-Overfull \hbox (11.71297pt too wide) detected at line 71
- |  [] []
- []
-
-
-Overfull \hbox (623.60535pt too wide) in paragraph at lines 71--71
-[]|  $[]$ 
+Overfull \hbox (13.72047pt too wide) detected at line 71
+ |  [] [] 
  []
 
 
@@ -1507,88 +1574,6 @@ Overfull \hbox (13.46774pt too wide) detected at line 71
  []
 
 
-Overfull \hbox (623.60535pt too wide) in paragraph at lines 71--71
-[]|  $[]$ 
- []
-
-
-Overfull \hbox (609.379pt too wide) in paragraph at lines 71--71
-[]|  [] 
- []
-
-[1
-
-]
-Overfull \hbox (1.04222pt too wide) detected at line 72
-\TU/STSong(1)/m/n/18.06749 研 究 生 姓 名\TU/TimesNewRoman(0)/m/n/18.06749 : 
- []
-
-
-Overfull \hbox (13.72047pt too wide) detected at line 72
- |  [] [] 
- []
-
-
-Overfull \hbox (1.0423pt too wide) detected at line 72
-\TU/STSong(1)/m/n/18.06749 导  师  姓  名\TU/TimesNewRoman(0)/m/n/18.06749 : 
- []
-
-
-Overfull \hbox (13.72047pt too wide) detected at line 72
- |  [] [] 
- []
-
-
-Overfull \hbox (13.72047pt too wide) detected at line 72
- |  [] [] 
- []
-
-
-Overfull \hbox (13.18312pt too wide) detected at line 72
- \TU/STSong(1)/m/n/12.045 申 请 学 位 类 别 $[]$ 
- []
-
-
-Overfull \hbox (13.18312pt too wide) detected at line 72
- \TU/STSong(1)/m/n/12.045 学 位 授 予 单 位 $[]$ 
- []
-
-
-Overfull \hbox (13.18312pt too wide) detected at line 72
- \TU/STSong(1)/m/n/12.045 工 程 领 域 名 称 $[]$ 
- []
-
-
-Overfull \hbox (13.18312pt too wide) detected at line 72
- \TU/STSong(1)/m/n/12.045 论 文 答 辩 日 期 $[]$ 
- []
-
-
-Overfull \hbox (13.18321pt too wide) detected at line 72
- \TU/STSong(1)/m/n/12.045 研    究    方    向 $[]$ 
- []
-
-
-Overfull \hbox (13.18312pt too wide) detected at line 72
- \TU/STSong(1)/m/n/12.045 学 位 授 予 日 期 $[]$ 
- []
-
-
-Overfull \hbox (12.42445pt too wide) detected at line 72
- \TU/STSong(1)/m/n/12.045 答 辩 委 员 会 主 席 $[]$ 
- []
-
-
-Overfull \hbox (13.18326pt too wide) detected at line 72
- \TU/STSong(1)/m/n/12.045 评         阅         人 $[]$ 
- []
-
-
-Overfull \hbox (13.46774pt too wide) detected at line 72
- [] $[]$ 
- []
-
-
 Underfull \hbox (badness 10000) has occurred while \output is active
 \TU/STSong(0)/m/n/9.03374 学 校 代 码
  []
@@ -1627,53 +1612,68 @@ File: figures/defined/seu-text-logo.png Graphic file (type bmp)
 <figures/defined/seu-text-logo.png>
 File: figures/defined/master-engineer.png Graphic file (type bmp)
 <figures/defined/master-engineer.png>
-LaTeX Font Info:    Calculating math sizes for size <21.07874> on input line 72
+LaTeX Font Info:    Calculating math sizes for size <21.07874> on input line 71
 .
 
-Overfull \hbox (1.0423pt too wide) detected at line 72
+Overfull \hbox (1.0423pt too wide) detected at line 71
 \TU/STHeiti(0)/m/n/18.06749 专  业  名  称\TU/TimesNewRoman(0)/m/n/18.06749 : 
  []
 
 
-LaTeX Font Warning: Font shape `TU/STSong(1)/b/n' undefined
-(Font)              using `TU/STSong(1)/m/n' instead on input line 72.
-
-
-Underfull \hbox (badness 10000) detected at line 72
- \TU/STSong(1)/m/n/18.06749 软 件 工 程 
+Underfull \hbox (badness 10000) detected at line 71
+  
  []
 
 
-Overfull \hbox (1.04222pt too wide) detected at line 72
+Overfull \hbox (1.04222pt too wide) detected at line 71
 \TU/STHeiti(0)/m/n/18.06749 研 究 生 姓 名\TU/TimesNewRoman(0)/m/n/18.06749 : 
  []
 
 
-Underfull \hbox (badness 10000) detected at line 72
- \TU/STSong(1)/m/n/18.06749 刘 江 鹏 
+Underfull \hbox (badness 10000) detected at line 71
+  
  []
 
 
-Overfull \hbox (1.0423pt too wide) detected at line 72
+Overfull \hbox (1.0423pt too wide) detected at line 71
 \TU/STHeiti(0)/m/n/18.06749 导  师  姓  名\TU/TimesNewRoman(0)/m/n/18.06749 : 
  []
 
 
-Underfull \hbox (badness 10000) detected at line 72
- \TU/STSong(1)/m/n/18.06749 单 冯 
+Underfull \hbox (badness 10000) detected at line 71
+  
  []
 
 
-Underfull \hbox (badness 10000) detected at line 72
- \TU/STSong(1)/m/n/18.06749 李 建 
+Underfull \hbox (badness 10000) detected at line 71
+  
  []
 
 [3] [4
 
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <24> on input line 72.
- [5] [6
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 \makecover
+                    % 生成小封面
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 \makecover
+                    % 生成小封面
+? 
+[5] [6
 
 
 ] (./chapters/abstract.tex [1] [2
@@ -1689,18 +1689,18 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ] [2
 
-]) [3
+] [3
 
-] [4
+]) [4] (./main.toc [5
 
-] (./main.toc [5] [6])
+] [6])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
  [7] [8
 
 ] (./main.lof
-Underfull \vbox (badness 6725) has occurred while \output is active []
+Underfull \vbox (badness 1394) has occurred while \output is active []
 
  [9
 
@@ -1841,23 +1841,20 @@ Missing character: There is no ^^? (U+007F) in font Times New Roman Bold/OT:scr
 ipt=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ^^? (U+007F) in font Times New Roman Bold/OT:scr
 ipt=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ß ("DF) in font cmmi8!
-Missing character: There is no ß ("DF) in font cmmi8!
-Missing character: There is no ß ("DF) in font cmmi8!
 [30]
 Missing character: There is no ß ("DF) in font cmmi8!
-
-Underfull \vbox (badness 1052) has occurred while \output is active []
-
- [31]
-Overfull \hbox (25.7784pt too wide) detected at line 619
+Missing character: There is no ß ("DF) in font cmmi8!
+Missing character: There is no ß ("DF) in font cmmi8!
+Missing character: There is no ß ("DF) in font cmmi8!
+[31]
+Overfull \hbox (25.7784pt too wide) detected at line 633
 [][][]\OML/cmm/m/it/12.045 `[] [] \OMS/cmsy/m/n/12.045 ^^@ \OML/cmm/m/it/12.045
  `[] [] \OT1/cmr/m/n/12.045 = \OMS/cmsy/m/n/12.045 Q [] ^^@ Q [] []  [] [] []\O
 ML/cmm/m/it/12.045 p[] [] ds[]
  []
 
 
-Overfull \hbox (1.84486pt too wide) in paragraph at lines 629--631
+Overfull \hbox (1.84486pt too wide) in paragraph at lines 643--645
 []\TU/STSong(0)/m/n/12.045 下 文 将 基 于 期 望 最 大 化 算 法 进 行 证 明，|  首 先 在 期 望 步 骤 方 面
 ：|  对 辅 助 函 数 $\OMS/cmsy/m/n/12.045 Q []$
  []
@@ -1865,7 +1862,7 @@ Overfull \hbox (1.84486pt too wide) in paragraph at lines 629--631
 [32] [33]
 File: figures/content/chapter3/自适应EKF算法流程.png Graphic file (type bmp)
 <figures/content/chapter3/自适应EKF算法流程.png>
-
+ [34]
 Missing character: There is no ^^? (U+007F) in font Times New Roman Bold/OT:scr
 ipt=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ^^? (U+007F) in font Times New Roman Bold/OT:scr
@@ -1883,30 +1880,25 @@ ipt=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ^^? (U+007F) in font Times New Roman Bold/OT:scr
 ipt=latn;language=dflt;mapping=tex-text;!
 
-Underfull \hbox (badness 7186) in paragraph at lines 825--833
+Underfull \hbox (badness 7186) in paragraph at lines 839--847
 [] \TU/TimesNewRoman(0)/m/n/12.045 9. \TU/STSong(0)/m/n/12.045 计 算 观 测 相 关 矩 阵\
 TU/TimesNewRoman(0)/m/n/12.045 : $\OML/cmm/m/it/12.045 A[] \OT1/cmr/m/n/12.045 
 = [] [][] +
  []
 
-[34]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [35]
 File: figures/content/chapter3/crazyflie_drone_flo_uwb.pdf Graphic file (type p
 df)
 <use figures/content/chapter3/crazyflie_drone_flo_uwb.pdf>
-
-[36]
+[35] [36]
 File: figures/content/chapter3/environment.pdf Graphic file (type pdf)
 <use figures/content/chapter3/environment.pdf>
  [37] [38] [39]
 File: figures/content/chapter3/robotsSimulation.pdf Graphic file (type pdf)
 <use figures/content/chapter3/robotsSimulation.pdf>
+ [40]
 File: figures/content/chapter3/Comparison_TheoryandExperiment.pdf Graphic file 
 (type pdf)
 <use figures/content/chapter3/Comparison_TheoryandExperiment.pdf>
- [40]
 File: figures/content/chapter3/24RobotExpone.pdf Graphic file (type pdf)
 <use figures/content/chapter3/24RobotExpone.pdf>
  [41]
@@ -1921,25 +1913,25 @@ File: figures/content/chapter3/EKFError.png Graphic file (type bmp)
  [44]
 File: figures/content/chapter3/AEKFError.png Graphic file (type bmp)
 <figures/content/chapter3/AEKFError.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+File: figures/content/chapter3/轨迹对比图.png Graphic file (type bmp)
+<figures/content/chapter3/轨迹对比图.png>
  [45]
 File: figures/content/chapter3/uwb_13_formation.png Graphic file (type bmp)
 <figures/content/chapter3/uwb_13_formation.png>
+ [46]
 File: figures/content/chapter3/uwb_4_distance.pdf Graphic file (type pdf)
 <use figures/content/chapter3/uwb_4_distance.pdf>
 File: figures/content/chapter3/errorDistribution.png Graphic file (type bmp)
 <figures/content/chapter3/errorDistribution.png>
-
-[46]) (./chapters/chapter4.tex [47] [48
-
-]
+ [47])
+(./chapters/chapter4.tex [48]
 第四章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
+ [49
+
+]
 File: figures/content/chapter4/crazyflie.jpeg Graphic file (type bmp)
 <figures/content/chapter4/crazyflie.jpeg>
 
@@ -1947,105 +1939,10 @@ File: figures/content/chapter4/crazyflie.jpeg Graphic file (type bmp)
 File: figures/content/chapter4/IQN.png Graphic file (type bmp)
 <figures/content/chapter4/IQN.png>
  [51] [52]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2635) has occurred while \output is active []
 
  [53]
 [54] [55] [56]
-Missing character: There is no ． (U+FF0E) in font Times New Roman/OT:script=lat
-n;language=dflt;mapping=tex-text;!
-Missing character: There is no ． (U+FF0E) in font Times New Roman/OT:script=lat
-n;language=dflt;mapping=tex-text;!
-[57]
-File: figures/content/chapter4/obstacles.png Graphic file (type bmp)
-<figures/content/chapter4/obstacles.png>
- [58]
-File: figures/content/chapter4/uvasimulation.png Graphic file (type bmp)
-<figures/content/chapter4/uvasimulation.png>
- [59]
-File: figures/content/chapter4/tcv.png Graphic file (type bmp)
-<figures/content/chapter4/tcv.png>
- [60]
-File: figures/content/chapter4/CUBEAI.jpeg Graphic file (type bmp)
-<figures/content/chapter4/CUBEAI.jpeg>
- [61]
-Overfull \hbox (2.10043pt too wide) in paragraph at lines 509--512
-\TU/STSong(0)/m/n/12.045 储 器，|  形 成 了 一 套 兼 顾 计 算 性 能、|  存 储 容 量 与 数 据 可 靠 性 的 
-嵌 入 式 系 统。| \TU/TimesNewRoman(0)/m/n/12.045 STM32H743VIH6
- []
-
-[62]
-File: figures/content/chapter4/Adhoc正面.png Graphic file (type bmp)
-<figures/content/chapter4/Adhoc正面.png>
-File: figures/content/chapter4/Adhoc反面.png Graphic file (type bmp)
-<figures/content/chapter4/Adhoc反面.png>
- [63]
-File: figures/content/chapter4/iqn_native.png Graphic file (type bmp)
-<figures/content/chapter4/iqn_native.png>
-File: figures/content/chapter4/compressTheory.png Graphic file (type bmp)
-<figures/content/chapter4/compressTheory.png>
- [64]
-Overfull \hbox (12.62358pt too wide) in paragraph at lines 562--563
-\TU/STSong(0)/m/n/12.045 基 于 \TU/TimesNewRoman(0)/m/n/12.045 STM32Cube.AI \TU/S
-TSong(0)/m/n/12.045 生 成 的 报 告 可 知，|  模 型 单 次 推 理 的 乘 加 运 算 次 数  |（\TU/TimesNewR
-oman(0)/m/n/12.045 MACC\TU/STSong(0)/m/n/12.045 ）|  为 \TU/TimesNewRoman(0)/m/n/
-12.045 18,033,384
- []
-
-File: figures/content/chapter4/AIcompression.jpg Graphic file (type bmp)
-<figures/content/chapter4/AIcompression.jpg>
-[65]
-File: figures/content/chapter4/Adhoc与无人机交互.png Graphic file (type bmp)
-<figures/content/chapter4/Adhoc与无人机交互.png>
-
-Underfull \vbox (badness 3428) has occurred while \output is active []
-
- [66]
-File: figures/content/chapter4/导航无人机.png Graphic file (type bmp)
-<figures/content/chapter4/导航无人机.png>
-File: figures/content/chapter4/真机实验图1.png Graphic file (type bmp)
-<figures/content/chapter4/真机实验图1.png>
-File: figures/content/chapter4/真机实验图2.png Graphic file (type bmp)
-<figures/content/chapter4/真机实验图2.png>
-File: figures/content/chapter4/真机实验图3.png Graphic file (type bmp)
-<figures/content/chapter4/真机实验图3.png>
-File: figures/content/chapter4/真机实验图4.png Graphic file (type bmp)
-<figures/content/chapter4/真机实验图4.png>
-
-
-LaTeX Warning: Float too large for page by 10.34563pt on input line 624.
-
-[67] [68]) (./chapters/chapter5.tex [69] [70
-
-]
-第五章
-File: figures/content/chapter5/硬件架构.png Graphic file (type bmp)
-<figures/content/chapter5/硬件架构.png>
-[71]
-File: figures/content/chapter5/FlowDeck.png Graphic file (type bmp)
-<figures/content/chapter5/FlowDeck.png>
-File: figures/content/chapter5/FlowDeck.png Graphic file (type bmp)
-<figures/content/chapter5/FlowDeck.png>
-File: figures/content/chapter5/MultirangDeck.png Graphic file (type bmp)
-<figures/content/chapter5/MultirangDeck.png>
-File: figures/content/chapter5/viconDeck.png Graphic file (type bmp)
-<figures/content/chapter5/viconDeck.png>
- [72]
-File: figures/content/chapter5/UWBDeck.png Graphic file (type bmp)
-<figures/content/chapter5/UWBDeck.png>
-File: figures/content/chapter5/FlowDeck.png Graphic file (type bmp)
-<figures/content/chapter5/FlowDeck.png>
-File: figures/content/chapter5/MultirangDeck.png Graphic file (type bmp)
-<figures/content/chapter5/MultirangDeck.png>
-File: figures/content/chapter5/领导者图片.png Graphic file (type bmp)
-<figures/content/chapter5/领导者图片.png>
-File: figures/content/chapter5/领导者图片.png Graphic file (type bmp)
-<figures/content/chapter5/领导者图片.png>
-File: figures/content/chapter5/vicon平台.png Graphic file (type bmp)
-<figures/content/chapter5/vicon平台.png>
- [73] [74] [75]
-File: figures/content/chapter5/软件架构.png Graphic file (type bmp)
-<figures/content/chapter5/软件架构.png>
- [76] [77]
 
 Package fontspec Warning: Font "STFangsong" does not contain requested Script
 (fontspec)                "CJK".
@@ -2073,6 +1970,81 @@ Package fontspec Info: Font family 'STFangsong(0)' created for font
 (fontspec)             <->"STFangsong/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
+[57]
+File: figures/content/chapter4/obstacles.png Graphic file (type bmp)
+<figures/content/chapter4/obstacles.png>
+ [58]
+File: figures/content/chapter4/uvasimulation.png Graphic file (type bmp)
+<figures/content/chapter4/uvasimulation.png>
+ [59]
+File: figures/content/chapter4/tcv.png Graphic file (type bmp)
+<figures/content/chapter4/tcv.png>
+ [60]
+File: figures/content/chapter4/CUBEAI.jpeg Graphic file (type bmp)
+<figures/content/chapter4/CUBEAI.jpeg>
+ [61]
+Overfull \hbox (2.10043pt too wide) in paragraph at lines 510--513
+\TU/STSong(0)/m/n/12.045 储 器，|  形 成 了 一 套 兼 顾 计 算 性 能、|  存 储 容 量 与 数 据 可 靠 性 的 
+嵌 入 式 系 统。| \TU/TimesNewRoman(0)/m/n/12.045 STM32H743VIH6
+ []
+
+[62]
+File: figures/content/chapter4/Adhoc正面.png Graphic file (type bmp)
+<figures/content/chapter4/Adhoc正面.png>
+File: figures/content/chapter4/Adhoc反面.png Graphic file (type bmp)
+<figures/content/chapter4/Adhoc反面.png>
+ [63]
+File: figures/content/chapter4/iqn_native.png Graphic file (type bmp)
+<figures/content/chapter4/iqn_native.png>
+ [64]
+File: figures/content/chapter4/compressTheory.png Graphic file (type bmp)
+<figures/content/chapter4/compressTheory.png>
+File: figures/content/chapter4/AIcompression.png Graphic file (type bmp)
+<figures/content/chapter4/AIcompression.png>
+ [65]
+File: figures/content/chapter4/Adhoc与无人机交互.png Graphic file (type bmp)
+<figures/content/chapter4/Adhoc与无人机交互.png>
+ [66]
+File: figures/content/chapter4/导航无人机.png Graphic file (type bmp)
+<figures/content/chapter4/导航无人机.png>
+File: figures/content/chapter4/真机实验图.png Graphic file (type bmp)
+<figures/content/chapter4/真机实验图.png>
+ [67] [68]) (./chapters/chapter5.tex [69] [70
+
+]
+第五章
+File: figures/content/chapter5/硬件架构.png Graphic file (type bmp)
+<figures/content/chapter5/硬件架构.png>
+[71]
+File: figures/content/chapter5/AdhocDeck.png Graphic file (type bmp)
+<figures/content/chapter5/AdhocDeck.png>
+File: figures/content/chapter5/FlowDeck.png Graphic file (type bmp)
+<figures/content/chapter5/FlowDeck.png>
+File: figures/content/chapter5/MultirangDeck.png Graphic file (type bmp)
+<figures/content/chapter5/MultirangDeck.png>
+File: figures/content/chapter5/viconDeck.png Graphic file (type bmp)
+<figures/content/chapter5/viconDeck.png>
+ [72]
+File: figures/content/chapter5/AdhocDeck.png Graphic file (type bmp)
+<figures/content/chapter5/AdhocDeck.png>
+File: figures/content/chapter5/FlowDeck.png Graphic file (type bmp)
+<figures/content/chapter5/FlowDeck.png>
+File: figures/content/chapter5/MultirangDeck.png Graphic file (type bmp)
+<figures/content/chapter5/MultirangDeck.png>
+File: figures/content/chapter5/领导者图片.png Graphic file (type bmp)
+<figures/content/chapter5/领导者图片.png>
+File: figures/content/chapter5/跟随者图片.png Graphic file (type bmp)
+<figures/content/chapter5/跟随者图片.png>
+File: figures/content/chapter5/vicon平台.png Graphic file (type bmp)
+<figures/content/chapter5/vicon平台.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73]
+[74] [75]
+File: figures/content/chapter5/软件架构.png Graphic file (type bmp)
+<figures/content/chapter5/软件架构.png>
+ [76] [77]
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
 )
@@ -2111,25 +2083,26 @@ File: figures/content/chapter5/无人机编译烧录.jpg Graphic file (type bmp)
 <figures/content/chapter5/无人机编译烧录.jpg>
 File: figures/content/chapter5/stmH7烧录.jpg Graphic file (type bmp)
 <figures/content/chapter5/stmH7烧录.jpg>
-File: figures/content/chapter5/stmH7烧录.jpg Graphic file (type bmp)
-<figures/content/chapter5/stmH7烧录.jpg>
- [81]) (./chapters/chapter6.tex [82]
+File: figures/content/chapter5/swv调试输出.jpg Graphic file (type bmp)
+<figures/content/chapter5/swv调试输出.jpg>
+File: figures/content/chapter5/集群导航.png Graphic file (type bmp)
+<figures/content/chapter5/集群导航.png>
+ [81] [82] [83]) (./chapters/chapter6.tex [84]
 第六章
-) (./chapters/acknowledgement.tex [83
+[85
 
-] [84
-
-]
+] [86]) (./chapters/acknowledgement.tex [87] [88]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.045pt
 (hyperref)                replaced by space on input line 1.
 
-) [85
+) [89
 
-] [86
 
-] (./main.bbl [87
+] [90
+
+] (./main.bbl [91
 
 ]
 Underfull \hbox (badness 1132) in paragraph at lines 153--159
@@ -2143,41 +2116,22 @@ Underfull \hbox (badness 1092) in paragraph at lines 153--159
 5.4-2020), 2020:1-174.  DOI:
  []
 
-[88] [89] [90] [91] [92] [93]) (./chapters/appendix.tex [94]
-附录 A
-[95
-
-] [96
-
-]
-附录 B
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 20.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 20.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 20.
-
-LaTeX Font Info:    Calculating math sizes for size <15.80905> on input line 20
-.
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
-) (./chapters/resume.tex [97] [98
-
-]) [99
-
-]
+[92] [93] [94] [95] [96] [97]) (./chapters/appendix.tex) [98]
 File: figures/defined/back-cover.png Graphic file (type bmp)
 <figures/defined/back-cover.png>
- [100
+
+
+! LaTeX Error: \begin{englishabstract} on input line 28 ended by \end{document}
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103 \end{document}
+                    
+? 
+[99
 
 ] (./main.aux)
  ***********
@@ -2186,21 +2140,22 @@ L3 programming layer <2022/08/05>
  ***********
 
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 59B57376EBDD6617072AD612D6A18A54;8334.
- ) 
-Here is how much of TeX's memory you used:
- 35267 strings out of 474773
- 773026 string characters out of 5757724
- 1964839 words of memory out of 5000000
- 56637 multiletter control sequences out of 15000+600000
- 593503 words of font info for 245 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 125i,17n,131p,1229b,1942s stack positions out of 10000i,1000n,20000p,200000b,200000s
+(rerunfilecheck)             Checksum: DB68E0A1DDD5BECD4C58EE4CDAE49F5D;9175.
+ )
+(\end occurred inside a group at level 1)
 
-Output written on main.pdf (123 pages).
+### semi simple group (level 1) entered at line 28 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 35252 strings out of 474773
+ 773034 string characters out of 5757724
+ 2062839 words of memory out of 5000000
+ 56630 multiletter control sequences out of 15000+600000
+ 578639 words of font info for 184 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 125i,17n,131p,1229b,2215s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.pdf (122 pages).

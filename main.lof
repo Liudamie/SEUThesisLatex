@@ -2,15 +2,15 @@
 \contentsline {figure}{\numberline {1{}-1}{\ignorespaces 无人机应用场景}}{1}{figure.caption.13}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {地质勘测}}}{1}{subfigure.1.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {电力巡检}}}{1}{subfigure.1.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {电力巡检}}}{1}{subfigure.1.3}%
-\contentsline {figure}{\numberline {1{}-2}{\ignorespaces 微型无人机}}{2}{figure.caption.14}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {灾害响应}}}{1}{subfigure.1.3}%
+\contentsline {figure}{\numberline {1{}-2}{\ignorespaces 微型室内无人机Crazyflie 2.1}}{2}{figure.caption.14}%
 \contentsline {figure}{\numberline {1{}-3}{\ignorespaces 微型无人机集群协作飞行}}{2}{figure.caption.15}%
 \contentsline {figure}{\numberline {1{}-4}{\ignorespaces 微型无人机集群应用场景}}{3}{figure.caption.16}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {室内探索搜救}}}{3}{subfigure.4.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {战术协同侦测打击}}}{3}{subfigure.4.2}%
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {灾害重建}}}{3}{subfigure.4.3}%
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {货物运输}}}{3}{subfigure.4.4}%
-\contentsline {figure}{\numberline {1{}-5}{\ignorespaces 研究内容}}{6}{figure.caption.17}%
+\contentsline {figure}{\numberline {1{}-5}{\ignorespaces 无人机集群飞行技术研究内容}}{6}{figure.caption.17}%
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {3{}-1}{\ignorespaces 无人机集群场景的集群测距协议示意图}}{18}{figure.caption.18}%
@@ -27,59 +27,55 @@
 \contentsline {figure}{\numberline {3{}-8}{\ignorespaces 限制抖动大小的特殊情况}}{24}{figure.caption.26}%
 \contentsline {figure}{\numberline {3{}-9}{\ignorespaces 报文不匹配现象}}{25}{figure.caption.27}%
 \contentsline {figure}{\numberline {3{}-10}{\ignorespaces 采用权衡测距的鲁棒集群测距协议步骤}}{26}{figure.caption.28}%
-\contentsline {figure}{\numberline {3{}-11}{\ignorespaces 无人机集群系统及搭载的机载传感器}}{28}{figure.caption.29}%
+\contentsline {figure}{\numberline {3{}-11}{\ignorespaces 无人机集群系统及搭载的机载传感器}}{29}{figure.caption.29}%
 \contentsline {figure}{\numberline {3{}-12}{\ignorespaces 自适应扩展卡尔曼滤波算法流程图}}{34}{figure.caption.30}%
-\contentsline {figure}{\numberline {3{}-13}{\ignorespaces 实验用到的无人机以及传感器}}{36}{figure.caption.31}%
-\contentsline {figure}{\numberline {3{}-14}{\ignorespaces 实验场地}}{37}{figure.caption.32}%
-\contentsline {figure}{\numberline {3{}-15}{\ignorespaces 不同规模无人机集群在平均测距周期为100 ms、仿真时长为200s条件下的仿真结果 }}{40}{figure.caption.34}%
+\contentsline {figure}{\numberline {3{}-13}{\ignorespaces 实验用到的无人机以及传感器}}{35}{figure.caption.31}%
+\contentsline {figure}{\numberline {3{}-14}{\ignorespaces 无人机飞行实验场地}}{37}{figure.caption.32}%
+\contentsline {figure}{\numberline {3{}-15}{\ignorespaces 不同规模无人机集群测距性能对比仿真}}{40}{figure.caption.34}%
 \contentsline {figure}{\numberline {3{}-16}{\ignorespaces 鲁棒集群测距协议的理论分析与实验结果对比}}{41}{figure.caption.35}%
-\contentsline {figure}{\numberline {3{}-17}{\ignorespaces 24 架无人机连续测距失败次数最大值与平均值的统计结果 }}{41}{figure.caption.36}%
-\contentsline {figure}{\numberline {3{}-18}{\ignorespaces 应用鲁棒集群测距协议后，不同测距周期与速度下连续测距失败的缓解情况}}{42}{figure.caption.38}%
+\contentsline {figure}{\numberline {3{}-17}{\ignorespaces 24 架无人机连续测距失败次数最大值与平均值的统计结果 }}{42}{figure.caption.36}%
+\contentsline {figure}{\numberline {3{}-18}{\ignorespaces 不同测距周期与速度下测距失败的缓解情况}}{43}{figure.caption.38}%
 \contentsline {figure}{\numberline {3{}-19}{\ignorespaces 自适应EKF与传统EKF定位误差对比图}}{43}{figure.caption.39}%
 \contentsline {figure}{\numberline {3{}-20}{\ignorespaces 传统EKF定位误差图}}{44}{figure.caption.40}%
 \contentsline {figure}{\numberline {3{}-21}{\ignorespaces 自适应EKF定位误差图}}{45}{figure.caption.42}%
-\contentsline {figure}{\numberline {3{}-22}{\ignorespaces 13架无人机编队飞行的顶部视图}}{46}{figure.caption.43}%
-\contentsline {figure}{\numberline {3{}-23}{\ignorespaces 13架无人机编队飞行过程中获取的5架无人机测量数据}}{47}{figure.caption.44}%
+\contentsline {figure}{\numberline {3{}-22}{\ignorespaces 自适应EKF估计与真实轨迹对比图}}{46}{figure.caption.43}%
+\contentsline {figure}{\numberline {3{}-23}{\ignorespaces 13架无人机编队飞行的顶部视图}}{47}{figure.caption.44}%
+\contentsline {figure}{\numberline {3{}-24}{\ignorespaces 13架无人机编队飞行过程中获取的5架无人机测量数据}}{47}{figure.caption.45}%
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {4{}-1}{\ignorespaces 带有4个激光器的微型无人机设备，用于探测障碍物}}{50}{figure.caption.45}%
-\contentsline {figure}{\numberline {4{}-2}{\ignorespaces 自适应风险倾向隐式分位网络框架}}{51}{figure.caption.46}%
-\contentsline {figure}{\numberline {4{}-3}{\ignorespaces 随机生成的仿真训练环境}}{58}{figure.caption.52}%
-\contentsline {figure}{\numberline {4{}-4}{\ignorespaces 不同风险倾向的无人机行为和导航时间比较}}{60}{figure.caption.55}%
-\contentsline {figure}{\numberline {4{}-5}{\ignorespaces 右截断方差（RTV）和自适应条件风险价值（CVaR）的关系。}}{60}{figure.caption.56}%
-\contentsline {figure}{\numberline {4{}-6}{\ignorespaces X-CUBE-AI 概述}}{62}{figure.caption.57}%
-\contentsline {figure}{\numberline {4{}-7}{\ignorespaces Adhoc Deck}}{63}{figure.caption.58}%
+\contentsline {figure}{\numberline {4{}-1}{\ignorespaces 带有4个激光器的微型无人机设备，用于探测障碍物}}{50}{figure.caption.46}%
+\contentsline {figure}{\numberline {4{}-2}{\ignorespaces 自适应风险倾向隐式分位网络框架}}{51}{figure.caption.47}%
+\contentsline {figure}{\numberline {4{}-3}{\ignorespaces 随机生成的仿真训练环境}}{58}{figure.caption.53}%
+\contentsline {figure}{\numberline {4{}-4}{\ignorespaces 不同风险倾向的无人机行为和导航时间比较}}{60}{figure.caption.56}%
+\contentsline {figure}{\numberline {4{}-5}{\ignorespaces 右截断方差（RTV）和自适应条件风险价值（CVaR）的关系。}}{60}{figure.caption.57}%
+\contentsline {figure}{\numberline {4{}-6}{\ignorespaces X-CUBE-AI 概述}}{62}{figure.caption.58}%
+\contentsline {figure}{\numberline {4{}-7}{\ignorespaces 部署平台：Adhoc Deck}}{63}{figure.caption.59}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {正面}}}{63}{subfigure.7.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {反面}}}{63}{subfigure.7.2}%
-\contentsline {figure}{\numberline {4{}-8}{\ignorespaces 转换后的网络模型图}}{64}{figure.caption.59}%
-\contentsline {figure}{\numberline {4{}-9}{\ignorespaces CUBE-AI权重压缩}}{65}{figure.caption.60}%
-\contentsline {figure}{\numberline {4{}-10}{\ignorespaces 模型压缩结果}}{66}{figure.caption.61}%
-\contentsline {figure}{\numberline {4{}-11}{\ignorespaces Adhoc Deck与无人机及其相关传感器交互}}{66}{figure.caption.62}%
-\contentsline {figure}{\numberline {4{}-12}{\ignorespaces 部署模型所用到的无人机及其扩展版}}{67}{figure.caption.63}%
-\contentsline {figure}{\numberline {4{}-13}{\ignorespaces 无人机自主导航实验图}}{68}{figure.caption.64}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {时刻1实拍图}}}{68}{subfigure.13.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {时刻2实拍图}}}{68}{subfigure.13.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {时刻3实拍图}}}{68}{subfigure.13.3}%
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {时刻4实拍图}}}{68}{subfigure.13.4}%
+\contentsline {figure}{\numberline {4{}-8}{\ignorespaces 转换后的网络模型图}}{64}{figure.caption.60}%
+\contentsline {figure}{\numberline {4{}-9}{\ignorespaces CUBE-AI权重压缩}}{65}{figure.caption.61}%
+\contentsline {figure}{\numberline {4{}-10}{\ignorespaces 模型压缩结果}}{66}{figure.caption.62}%
+\contentsline {figure}{\numberline {4{}-11}{\ignorespaces Adhoc Deck与无人机及其相关传感器交互}}{67}{figure.caption.63}%
+\contentsline {figure}{\numberline {4{}-12}{\ignorespaces 部署模型所用到的无人机及其扩展版}}{67}{figure.caption.64}%
+\contentsline {figure}{\numberline {4{}-13}{\ignorespaces 无人机自主导航实验图}}{68}{figure.caption.65}%
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {5{}-1}{\ignorespaces 原型系统硬件架构}}{72}{figure.caption.65}%
-\contentsline {figure}{\numberline {5{}-2}{\ignorespaces 领导者无人机硬件模块组成}}{72}{figure.caption.66}%
+\contentsline {figure}{\numberline {5{}-1}{\ignorespaces 原型系统硬件架构}}{72}{figure.caption.66}%
+\contentsline {figure}{\numberline {5{}-2}{\ignorespaces 领导者无人机硬件模块组成}}{72}{figure.caption.67}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Adhoc Deck}}}{72}{subfigure.2.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Flow Deck}}}{72}{subfigure.2.2}%
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Multi-ranger Deck}}}{72}{subfigure.2.3}%
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Motion Capture Marker Deck}}}{72}{subfigure.2.4}%
-\contentsline {figure}{\numberline {5{}-3}{\ignorespaces 跟随者无人机硬件模块组成}}{73}{figure.caption.67}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {UWB Deck}}}{73}{subfigure.3.1}%
+\contentsline {figure}{\numberline {5{}-3}{\ignorespaces 跟随者无人机硬件模块组成}}{73}{figure.caption.68}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Adhoc Deck}}}{73}{subfigure.3.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Flow Deck}}}{73}{subfigure.3.2}%
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Multi-ranger Deck}}}{73}{subfigure.3.3}%
-\contentsline {figure}{\numberline {5{}-4}{\ignorespaces 无人机集群自主导航系统}}{74}{figure.caption.68}%
+\contentsline {figure}{\numberline {5{}-4}{\ignorespaces 无人机集群自主导航系统}}{74}{figure.caption.69}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {领导者无人机}}}{74}{subfigure.4.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {跟随者无人机}}}{74}{subfigure.4.2}%
-\contentsline {figure}{\numberline {5{}-5}{\ignorespaces vicon 监控平台}}{74}{figure.caption.69}%
-\contentsline {figure}{\numberline {5{}-6}{\ignorespaces 系统软件架构}}{76}{figure.caption.70}%
-\contentsline {figure}{\numberline {5{}-7}{\ignorespaces 无人机飞行控制的Commander模块}}{79}{figure.caption.71}%
-\contentsline {figure}{\numberline {5{}-8}{\ignorespaces 无人机的编译与烧录}}{81}{figure.caption.72}%
-\contentsline {figure}{\numberline {5{}-9}{\ignorespaces Adhoc Deck的编译与烧录}}{81}{figure.caption.73}%
-\contentsline {figure}{\numberline {5{}-10}{\ignorespaces Adhoc Deck运行调试中的SWV输出}}{82}{figure.caption.74}%
-\addvspace {10.0pt}
-\addvspace {10.0pt}
+\contentsline {figure}{\numberline {5{}-5}{\ignorespaces Vicon监控平台}}{74}{figure.caption.70}%
+\contentsline {figure}{\numberline {5{}-6}{\ignorespaces 系统软件架构}}{76}{figure.caption.71}%
+\contentsline {figure}{\numberline {5{}-7}{\ignorespaces 无人机飞行控制的Commander模块}}{80}{figure.caption.72}%
+\contentsline {figure}{\numberline {5{}-8}{\ignorespaces 无人机的编译与烧录}}{82}{figure.caption.73}%
+\contentsline {figure}{\numberline {5{}-9}{\ignorespaces Adhoc Deck的编译与烧录}}{82}{figure.caption.74}%
+\contentsline {figure}{\numberline {5{}-10}{\ignorespaces Adhoc Deck运行调试中的SWV输出}}{82}{figure.caption.75}%
+\contentsline {figure}{\numberline {5{}-11}{\ignorespaces 集群导航飞行图}}{83}{figure.caption.76}%
 \addvspace {10.0pt}

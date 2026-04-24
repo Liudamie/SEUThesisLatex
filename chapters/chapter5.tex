@@ -1,12 +1,12 @@
 \chapter{微型无人机集群测距与自主导航原型系统}
 
 
-\section{ 引言}
+\section{引言}
 
 随着微型无人机在复杂环境中的应用需求不断提升，单机自主导航已难以满足高效率、高鲁棒性的任务要求，多无人机集群协同逐渐成为研究热点。
 然而，在实际应用中，受限于微型无人机平台的计算资源、通信带宽以及传感能力，实现集群级别的稳定测距、可靠定位以及自主导航仍面临诸多挑战，尤其是在复杂未知环境下，如何构建一个具备完整闭环能力的原型系统，是从算法研究走向工程落地的关键问题。
 
-针对上述问题，本文在前几章的研究基础上，进一步开展微型无人机集群测距与自主导航原型系统的设计与实现工作。
+针对上述问题，本文在前几章的研究基础上，进一步开展微型无人机集群协同与自主导航原型系统的设计与实现工作。
 第三章围绕集群相对定位问题，提出了一种基于UWB的自适应协同定位方法，通过鲁棒测距协议与期望最大化算法相结合，实现了多无人机环境下稳定且高精度的相对定位；
 第四章则针对复杂环境中的自主导航问题，基于分布式强化学习框架，提出了自适应风险倾向隐式分位网络算法，有效提升了无人机在低概率高风险场景下的决策安全性与鲁棒性，并完成了模型训练与嵌入式部署。
 
@@ -38,7 +38,7 @@
 \subsection{无人机平台}
 \begin{figure}[htbp]
     \centering
-    \subfloat[Adhoc Deck]{\includegraphics[width=.23\textwidth]{figures/content/chapter5/FlowDeck.png}}
+    \subfloat[Adhoc Deck]{\includegraphics[width=.23\textwidth]{figures/content/chapter5/AdhocDeck.png}}
     \quad
     \subfloat[Flow Deck]{\includegraphics[width=.23\textwidth]{figures/content/chapter5/FlowDeck.png}}
     \quad
@@ -59,7 +59,7 @@ Motion Capture Marker Deck 搭载反光标记点，用于配合外部动捕系�
 
 \begin{figure}[htbp]
     \centering
-    \subfloat[UWB Deck]{\includegraphics[width=.23\textwidth]{figures/content/chapter5/UWBDeck.png}}
+    \subfloat[Adhoc Deck]{\includegraphics[width=.23\textwidth]{figures/content/chapter5/AdhocDeck.png}}
     \quad
     \subfloat[Flow Deck]{\includegraphics[width=.33\textwidth]{figures/content/chapter5/FlowDeck.png}}
     \quad
@@ -78,17 +78,17 @@ Multi-ranger Deck 集成多方向距离传感器，用于实时感知周围障�
     \centering
     \subfloat[领导者无人机]{\includegraphics[width=.45\textwidth]{figures/content/chapter5/领导者图片.png}}
     \quad
-    \subfloat[跟随者无人机]{\includegraphics[width=.45\textwidth]{figures/content/chapter5/领导者图片.png}}
+    \subfloat[跟随者无人机]{\includegraphics[width=.45\textwidth]{figures/content/chapter5/跟随者图片.png}}
     \caption{无人机集群自主导航系统}
     \label{fig:5_3}
 \end{figure}
 \subsection{外部监控平台}
 外部监控平台主要由 Vicon 动作捕捉系统 与 Crazyradio PA 无线通信模块 构成，用于实现无人机状态获取与飞行指令下发。
-
+%todo 无人机图片拍照
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=.7\linewidth]{figures/content/chapter5/vicon平台.png}
-  \caption{vicon 监控平台}
+  \includegraphics[width=.85\linewidth]{figures/content/chapter5/vicon平台.png}
+  \caption{Vicon监控平台}
   \label{fig:5_4}
 \end{figure}
 
@@ -113,7 +113,7 @@ Multi-ranger Deck 集成多方向距离传感器，用于实时感知周围障�
     校准完成后，进行简单的动作捕捉测试，观察系统输出的数据是否连续、平滑，是否存在异常跳变或数据丢失现象。如发现问题，应返回对应步骤重新进行校准，以确保系统性能满足实验要求。
 \end{enumerate}
 
-Crazyradio PA 是用于连接上位机与无人机的 2.4GHz 无线通信模块。其通过 USB 接口与计算机相连，并基于 Crazyflie 通信协议（CRTP）与无人机建立稳定的数据链路。
+Crazyradio PA 是用于连接上位机与无人机的 2.4GHz 无线通信模块。其通过 USB 接口与计算机相连，并基于 Crazyflie通信协议（CRTP）与无人机建立稳定的数据链路。
 上位机可通过 Crazyradio PA 向领导者无人机发送飞行控制指令，同时接收无人机回传的状态信息，实现对系统运行过程的实时监控与参数调节。
 
 \section{系统软件模块}
@@ -152,8 +152,9 @@ Crazyradio PA 是用于连接上位机与无人机的 2.4GHz 无线通信模块�
 \begin{equation}
 \boldsymbol{v}_{i}=k_{p} \boldsymbol{e}_{i 0}+k_{d} \dot{\boldsymbol{e}}_{i 0}+k_{i} \int \boldsymbol{e}_{i 0} d t-\sum_{j}^{N_{o b s}} k_{o b s}\left(c-\min \left(d_{j}^{o b s}, c\right)\right) \operatorname{sign}\left(\boldsymbol{p}_{j}^{o b s}\right)^{\circ}\left|\boldsymbol{p}_{j}^{o b s}\right|^{-1}
 \end{equation}
+%避障算法看看能不能优化
 \subsection{通信模块}
-在本文系统中，无人机与上位机之间的通信采用 Crazyflie 平台提供的 Crazy Real-Time Protocol（CRTP） 协议实现。CRTP 是一种轻量级、面向实时控制设计的数据通信协议，主要用于在上位机与无人机各功能子系统之间进行高效、可靠的数据交互。
+在本文系统中，无人机与上位机之间的通信采用Crazyflie平台提供的 Crazy Real-Time Protocol（CRTP） 协议实现。CRTP 是一种轻量级、面向实时控制设计的数据通信协议，主要用于在上位机与无人机各功能子系统之间进行高效、可靠的数据交互。
 
 从体系结构上看，CRTP 采用分层设计，其通信栈自下而上包括物理层、链路层、协议层以及功能子系统层。其中，物理层支持 USB 或 2.4GHz 无线链路（Crazyradio PA）；链路层负责数据包的可靠传输与顺序控制；CRTP 协议层通过引入端口（port）与通道（channel）机制，实现数据在不同功能模块之间的路由；最上层的子系统则对应无人机内部的具体功能模块，如飞行控制、参数管理、数据日志与定位等。
 
@@ -194,6 +195,30 @@ typedef struct __attribute__((packed)){
 } Transmit_Packet_t;
 \end{lstlisting}
 此外，为降低通信开销并提升跨平台兼容性，通信数据包采用紧凑的数据结构设计，通过显式控制内存布局以消除编译器默认对齐带来的冗余填充，从而在保证数据一致性与可解析性的同时，提高整体通信效率。
+
+\begin{lstlisting}[language=C, caption={无人机传输具体数据报文结构定义}]
+typedef struct __attribute__((packed)) {
+  uint8_t header;      // 帧头，用于标识数据帧起始
+  uint8_t datalen;     // 数据长度，表示后续有效载荷的字节数
+  uint8_t seq;         // 序列号，用于检测丢帧或数据乱序
+  float yaw;           // 偏航角（Yaw），描述无人机当前姿态
+  short xv;            // x方向速度分量（单位为cm/s）
+  short yv;            // y方向速度分量（单位为或cm/s）
+  uint16_t z;          // 高度信息（通常单位为mm）
+  uint16_t front;      // 前向测距数据
+  uint16_t back;       // 后向测距数据
+  uint16_t left;       // 左侧测距数据
+  uint16_t right;      // 右侧测距数据
+  float viconX;        // Vicon系统提供的全局X坐标
+  float viconY;        // Vicon系统提供的全局Y坐标
+  bool flying;         // 飞行状态标志（true表示飞行中）
+  uint8_t parity;      // 校验字段（简单奇偶校验或校验和）
+} BeeFlightData_t;
+\end{lstlisting}
+
+上述结构体定义了无人机通过 UART 向 STM32H7 主控发送的数据包格式。该数据包采用紧凑结构设计（\verb|__attribute__((packed))|），以避免编译器自动内存对齐带来的冗余填充，从而降低通信开销并提高数据传输效率。数据帧以 header 作为帧头，用于标识一帧数据的起始位置，datalen 表示有效载荷长度，支持变长数据解析，seq 为序列号字段，用于检测丢帧或乱序情况。在状态信息方面，数据包包含无人机的偏航角 yaw 以及水平速度分量 xv 和 yv，同时通过 z 提供高度信息；在环境感知方面，front、back、left 和 right 分别表示来自多方向测距传感器的距离数据，用于支持避障与环境建模。此外，数据包还融合了外部动作捕捉系统提供的位置信息，其中 viconX 和 viconY 表示无人机在全局坐标系下的位置坐标；flying 用于指示无人机当前飞行状态；最后通过 parity 字段对数据进行简单校验，以提高通信可靠性。该数据包在单一数据帧中集成了姿态、速度、环境感知及外部定位等多源信息，为主控系统进行状态估计与控制决策提供了完整的数据支撑，同时减少了通信次数并提升了系统整体实时性。
+
+
 \subsection{飞行控制模块}
 \begin{figure}[htbp]
   \centering
@@ -201,6 +226,7 @@ typedef struct __attribute__((packed)){
   \caption{无人机飞行控制的Commander模块}
   \label{fig:5_6}
   \end{figure}
+
 Crazyflie 2.1 无人机的飞行控制模块采用基于 setpoint 的分层闭环控制架构，通过统一的目标状态描述实现上层控制输入与底层控制器之间的解耦。在该机制中，setpoint 用于描述无人机在当前时刻的期望状态，并作为控制器的参考输入，与状态估计模块输出的实际状态进行比较，从而驱动多层控制器逐级完成闭环调节。根据控制目标的不同，系统支持多种 setpoint 工作模式，包括绝对位置模式（modeAbs）、速度模式（modeVelocity）以及禁用模式（modeDisable），从而能够适应不同任务场景下的控制需求。
 
 在本文的系统实现中，主要采用速度模式（modeVelocity）作为无人机的控制方式。在该模式下，setpoint 不再直接描述无人机的空间位置，而是以速度作为控制目标，具体包括$x$、$y$、$z$三个方向的线速度以及偏航角变化率。控制系统通过将期望速度与当前估计速度进行比较，构建速度闭环控制，并进一步生成对应的加速度指令。由于四旋翼无人机的平动控制依赖于姿态调节，系统将期望加速度转换为相应的滚转角与俯仰角设定值，随后通过姿态控制环和角速度控制环逐级实现闭环调节，最终作用于电机驱动，实现对无人机运动状态的精确控制。
@@ -258,13 +284,32 @@ struct Diff
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=.6\linewidth]{figures/content/chapter5/stmH7烧录.jpg}
+  \includegraphics[width=.6\linewidth]{figures/content/chapter5/swv调试输出.jpg}
   \caption{Adhoc Deck运行调试中的SWV输出}
   \label{fig:5_9}
 \end{figure}
-\section{ 系统测试与运行结果} 
-%无人机编队飞行图以及Deck展示图
+\section{系统测试与运行结果} 
+%无人机编队飞行图
 
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=.65\linewidth]{figures/content/chapter5/集群导航.png}
+  \caption{集群导航飞行图}
+  \label{fig:5_10}
+\end{figure}
+为验证本文所构建的微型无人机集群测距与自主导航原型系统在实际环境中的有效性与稳定性，设计并开展了多无人机室内飞行实验。
+实验场景中设置了多处障碍物，以模拟复杂环境下的导航任务，重点考察系统在领导—跟随模式下的编队保持能力、自主导航能力以及局部避障性能。
+图\ref{fig:5_10}给出了典型实验过程的连续时刻截图，展示了无人机从起飞、编队形成、避障飞行到最终到达目标点的全过程。
+
+如图所示，展示了微型无人机集群在复杂环境中的自主导航与编队飞行过程。其中，红色标记表示领航无人机，蓝色与黄色标记表示两架跟随无人机。
+在起飞阶段，三架无人机完成初始起飞并建立基本编队结构。随后进入编队导航阶段，领导者无人机基于本文提出的强化学习导航模型进行路径规划与运动决策，带领集群向目标方向移动。
+
+在飞行过程中，当跟随无人机接近环境中的障碍物时，能够基于机载传感器信息触发局部避障策略，对原有跟随轨迹进行调整，以避免与障碍物发生碰撞。
+同时，在避障完成后，跟随无人机能够重新收敛至期望编队位置，保持对领航无人机的稳定跟随，体现了编队控制与局部避障的协同能力。
+在后续编队导航阶段，三架无人机在绕过障碍物后继续保持稳定编队运动，说明系统在动态环境下具有良好的鲁棒性与一致性。
+最终，在到达终点阶段，集群整体完成目标点导航任务，且未发生碰撞或失稳现象。
+
+实验结果表明，领航无人机能够基于强化学习模型实现有效的路径规划与避障决策，而跟随无人机在协同定位的基础上，结合局部避障策略，能够实现稳定跟随与安全避碰。整体系统在复杂环境中表现出良好的自主导航能力与集群协同性能。
 \section{本章小结} 
 
 本章围绕微型无人机集群测距与自主导航原型系统的设计与实现，系统性地完成了从硬件构建到软件集成，再到实际飞行验证的整体工作，实现了前文算法研究向工程应用的有效落地。

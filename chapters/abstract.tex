@@ -1,13 +1,41 @@
 %% ----------------------------------------------------------------------------
 %%                              Chinese Abstract
 %% ----------------------------------------------------------------------------
-\begin{abstract}{\TeX, \LaTeX, 学位论文}
-本文提出了一个新的东南大学 \LaTeX 硕士研究生毕业论文模板，并说明了如何更优雅地写出一篇漂亮而无用的文章。
+\begin{abstract}{微型无人机，超宽带，集群协同，相对定位，自主导航}
+    随着无人机技术的快速发展，其在灾害救援、环境监测及基础设施巡检等复杂场景中的应用日益广泛。相比传统无人机，微型无人机具有体积小、成本低、机动性强等优势，尤其适用于空间受限或高风险环境。然而，受限于机载计算能力、通信带宽及能源供给等因素，单架微型无人机在任务执行能力和续航方面存在明显不足。
+    通过构建多无人机集群并开展协同飞行，可有效提升系统整体感知能力与任务执行效率，成为当前的热点研究方向。
+
+    然而，微型无人机在集群化过程中仍面临协同定位与自主导航两大挑战。在协同定位方面，高密度集群中的通信冲突与测距不稳定问题显著影响定位精度，同时噪声统计特性未知或时变使得传统滤波定位方法难以保持稳定性与鲁棒性。
+    在自主导航方面，现有强化学习方法多以期望收益最大化为目标，对低概率高风险事件的刻画能力不足，难以满足安全关键场景需求。
+    此外，受限于机载计算资源，如何在保证实时性的前提下实现高效、可靠的感知与决策，也是亟待解决的关键问题。
+    针对上述挑战，本文围绕微型无人机集群协同定位与自主导航关键技术开展研究。具体的研究成果包括：
+    
+    （1）针对微型无人机集群在高密度环境中存在的测距冲突频发与噪声统计特性不确定显著影响定位精度的问题，提出了一种鲁棒集群测距与自适应相对定位方法。
+    在集群测距层面，通过设计随机化测距机制与补偿策略，实现精确与鲁棒的测距；
+    在相对定位层面，基于测距信息构建相对定位模型，引入期望最大化算法对噪声统计特性进行在线估计，并将其嵌入定位滤波框架中，提高在噪声不确定环境下的定位精度与稳定性。
+
+    （2）针对复杂环境下自主导航过程中安全性不足的问题，提出了一种风险感知强化学习方法。通过引入风险度量机制，使无人机在决策过程中能够综合考虑收益与潜在风险，从而有效降低高风险行为发生概率，提高导航策略的安全性与稳定性，并实现了面向资源受限平台的轻量化部署。
+
+    （3）完成了集群自适应协同定位与风险感知导航方法的系统集成，构建了微型无人机集群自主导航原型系统。
+    基于Crazyflie 2.1 Brushless平台开展真机飞行实验，验证了所提方法在复杂环境中的有效性与工程可行性。 
+    
+    综上所述，本文从集群测距、相对定位到风险感知决策与系统实现，系统性地解决了资源受限条件下微型无人机集群自主导航中的关键问题。研究结果表明，所提方法能够在资源受限平台上实现稳定运行，并为微型无人机集群在复杂环境中的实际部署提供了技术支撑。
 \end{abstract}
 
 %% ----------------------------------------------------------------------------
 %%                              English Abstract
 %% ----------------------------------------------------------------------------
-\begin{englishabstract}{\TeX, \LaTeX, Thesis}
-This article proposes a new Southeast University master degree thesis \LaTeX ~template and explains how to elegantly write an article which is beautiful but full of shit.
-\end{englishabstract}
+\begin{englishabstract}{Micro unmanned aerial vehicles, Ultra-wideband, Swarm collaboration, Relative localization, Autonomous navigation}
+   With the rapid development of unmanned aerial vehicle (UAV) technology, their applications in complex scenarios such as disaster rescue, environmental monitoring, and infrastructure inspection have become increasingly widespread. Compared with conventional UAVs, micro UAVs offer advantages including small size, low cost, and high maneuverability, making them particularly suitable for confined or high-risk environments. However, due to limitations in onboard computing capability, communication bandwidth, and energy supply, a single micro UAV still suffers from significant constraints in task execution capability and endurance.    By forming multi-UAV swarms and enabling cooperative flight, the overall system perception capability and task execution efficiency can be significantly enhanced, making swarm-based operation a key development direction.
+
+However, micro UAV swarms face two major challenges in practical deployment: cooperative localization and autonomous navigation. In cooperative localization, communication collisions and unstable ranging in high-density swarms significantly degrade positioning accuracy. In addition, unknown or time-varying noise statistics make it difficult for traditional filtering methods to maintain stability and robustness. In autonomous navigation, existing reinforcement learning methods mainly focus on expected reward maximization and lack the ability to characterize low-probability but high-risk events, making them insufficient for safety-critical applications. Furthermore, due to limited onboard computational resources, achieving efficient and reliable perception and decision-making under real-time constraints remains a critical challenge.
+
+To address these issues, this thesis focuses on key technologies for cooperative localization and autonomous navigation in micro UAV swarms. The main contributions are as follows:
+
+(1) To address frequent ranging collisions and the adverse impact of unknown noise statistics on localization accuracy in high-density micro UAV swarms, a robust swarm ranging and adaptive cooperative localization method is proposed. At the ranging level, a randomized ranging mechanism and compensation strategy are designed to achieve accurate and robust distance measurements. At the localization level, a relative positioning model is constructed based on ranging information, and an expectation-maximization (EM) algorithm is introduced to estimate noise statistics online. This estimation is further embedded into the filtering framework to improve localization accuracy and stability under uncertain noise conditions.
+
+(2) To improve safety in autonomous navigation under complex environments, a risk-aware reinforcement learning method is proposed. By introducing a risk metric, the UAV can jointly consider expected return and potential risk during decision-making, thereby reducing the probability of high-risk actions, improving the safety and stability of navigation policies, and enabling lightweight deployment on resource-constrained platforms.
+
+(3) A system-level integration of cooperative localization and risk-aware navigation is implemented, and a prototype autonomous navigation system for micro UAV swarms is developed. Real-world flight experiments are conducted on the Crazyflie 2.1 Brushless platform, demonstrating the effectiveness and engineering feasibility of the proposed methods in complex environments.
+
+In summary, this work systematically addresses key challenges in autonomous navigation of micro UAV swarms under resource-constrained conditions, covering cooperative ranging, relative localization, risk-aware decision-making, and system implementation. Experimental results demonstrate that the proposed methods can operate stably on resource-limited platforms and provide technical support for practical deployment of micro UAV swarms in complex environments.

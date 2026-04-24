@@ -588,10 +588,10 @@ TOBIN~J, FONG~R, RAY~A, et~al.
   systems (IROS).
 \newblock IEEE, 2017. 23-30.
 
-\bibitem[Agarap(2018)]{agarap2018deep}
-AGARAP~A~F.
-\newblock Deep learning using rectified linear units (relu)\allowbreak[J].
-\newblock arXiv preprint arXiv:1803.08375, 2018.
+\bibitem[Fred et~al.(2018)Fred and Agarap]{fred2018deep}
+FRED~A, AGARAP~M.
+\newblock Deep learning using rectified linear units\allowbreak[J].
+\newblock arXiv preprint arXiv: 1803.08375, 2018.
 
 \bibitem[Reyad et~al.(2023)Reyad, Sarhan, and Arafa]{reyad2023modified}
 REYAD~M, SARHAN~A~M, ARAFA~M.
@@ -602,7 +602,7 @@ REYAD~M, SARHAN~A~M, ARAFA~M.
 
 \bibitem[Knospe(2006)]{knospe2006pid}
 KNOSPE~C.
-\newblock Pid control\allowbreak[J].
+\newblock {PID} control\allowbreak[J].
 \newblock IEEE Control Systems Magazine, 2006, 26\penalty0 (1):\penalty0 30-31.
 
 \end{thebibliography}
